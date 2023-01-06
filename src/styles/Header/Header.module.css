@@ -4,6 +4,8 @@
     border-bottom: 1px solid var(--accent-color);
     display: flex;
     justify-content: center;
+    position: sticky;
+    top: 0;
 }
 
 .container {
