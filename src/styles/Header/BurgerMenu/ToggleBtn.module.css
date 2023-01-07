@@ -58,3 +58,9 @@
 .open-toggle-btn span:nth-child(3) {
     transform: translateY(0.9rem) rotate(-315deg);
 }
+
+@media only screen and (max-width: 768px) {
+    .toggle-btn, .open-toggle-btn {
+        display: none;
+    }
+}
