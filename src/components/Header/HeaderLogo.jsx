@@ -4,8 +4,8 @@ export default function HeaderLogo() {
     return (
         <div className={styles["container"]}>
             <img 
-                className={styles["profile"]}
-                src={"/assets/sample.jpg"}
+                className={styles["profile-img"]}
+                src={"/assets/profile-img.jpg"}
                 alt={"Profile Picture"}
             />
                 
