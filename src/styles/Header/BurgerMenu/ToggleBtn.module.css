@@ -15,7 +15,7 @@
     left: 0;
     width: 30px;
     height: 2px;
-    background-color: #FEF2B2;
+    background-color: var(--accent-color);
     transition: all 0.5s;
     border-radius: 4px;
 }
@@ -44,7 +44,7 @@
 }
 
 .open-toggle-btn span {
-    background-color: #FEF2B2;
+    background-color: var(--accent-color);
 }
 
 .open-toggle-btn span:nth-child(1) {

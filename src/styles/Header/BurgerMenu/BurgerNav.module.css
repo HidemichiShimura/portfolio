@@ -1,6 +1,6 @@
 .nav {
     width: 180px;
-    background-color: black;
+    background-color: var(--main-color);
     position: fixed;
     top: 70px;
     right: -300px;
@@ -10,7 +10,7 @@
 
 .open-nav{
     width: 180px;
-    background-color: black;
+    background-color: var(--main-color);
     position: fixed;
     top: 70px;
     right: 0;
@@ -25,13 +25,13 @@
 }
 
 .inner ul li {
-    border-bottom: 1px solid #FEF2B2;
+    border-bottom: 1px solid var(--accent-color);
 }
 
 .inner ul li a {
     display: block;
     text-decoration: none;
-    color: #FEF2B2;
+    color: var(--accent-color);
     padding: 1rem;
 }
 
