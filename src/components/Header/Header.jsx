@@ -1,6 +1,6 @@
 import styles from "../../styles/Header/Header.module.css";
 
-import { HeaderLogo, BurgerMenu } from "../index";
+import { HeaderLogo, BurgerMenu, NavMenu } from "../index";
 
 export default function Header() {
     return (
@@ -8,6 +8,7 @@ export default function Header() {
             <div className={styles["container"]}>
                 <HeaderLogo />
                 <BurgerMenu />
+                <NavMenu />
             </div>
         </header>
     )
