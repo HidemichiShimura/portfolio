@@ -1,0 +1,19 @@
+.nav-menu-container {
+    width: 300px;
+}
+
+.nav-menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.nav-menu li a {
+    color: var(--accent-color);
+}
+
+@media only screen and (max-width: 768px) {
+    .nav-menu-container {
+        display: none;
+    }
+}
