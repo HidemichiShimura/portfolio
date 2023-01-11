@@ -1,66 +1,66 @@
-.toggle-btn {
-    display: block;
-    position: fixed;
-    top: 20px;
-    right: 30px;
-    width: 30px;
-    height: 30px;
-    z-index: 3;
-    cursor: pointer;
-}
-
-.burger-bar {
-    position: absolute;
-    display: block;
-    left: 0;
-    width: 30px;
-    height: 2px;
-    background-color: var(--accent-color);
-    transition: all 0.5s;
-    border-radius: 4px;
-}
-
-.toggle-btn span:nth-child(1) {
-    top: 4px;
-}
-
-.toggle-btn span:nth-child(2) {
-    top: 14px;
-}
-
-.toggle-btn span:nth-child(3) {
-    bottom: 4px;
-}
-
-.open-toggle-btn {
-    display: block;
-    position: fixed;
-    top: 20px;
-    right: 30px;
-    width: 30px;
-    height: 30px;
-    z-index: 3;
-    cursor: pointer;
-}
-
-.open-toggle-btn span {
-    background-color: var(--accent-color);
-}
-
-.open-toggle-btn span:nth-child(1) {
-    transform: translateY(0.9rem) rotate(315deg);
-}
-
-.open-toggle-btn span:nth-child(2) {
+.toggle-btn, .open-toggle-btn {
     display: none;
 }
 
-.open-toggle-btn span:nth-child(3) {
-    transform: translateY(0.9rem) rotate(-315deg);
-}
-
-@media only screen and (min-width: 768px) {
-    .toggle-btn, .open-toggle-btn {
+@media only screen and (max-width: 749px) {
+    .toggle-btn {
+        width: 30px;
+        height: 30px;
+        display: block;
+        position: fixed;
+        top: 20px;
+        right: 30px;
+        z-index: 3;
+        cursor: pointer;
+    }
+    
+    .burger-bar {
+        width: 30px;
+        height: 2px;
+        display: block;
+        position: absolute;
+        left: 0;
+        background-color: var(--accent-color);
+        transition: all 0.5s;
+        border-radius: 4px;
+    }
+    
+    .toggle-btn span:nth-child(1) {
+        top: 4px;
+    }
+    
+    .toggle-btn span:nth-child(2) {
+        top: 14px;
+    }
+    
+    .toggle-btn span:nth-child(3) {
+        bottom: 4px;
+    }
+    
+    .open-toggle-btn {
+        width: 30px;
+        height: 30px;
+        display: block;
+        position: fixed;
+        top: 20px;
+        right: 30px;
+        z-index: 3;
+        cursor: pointer;
+    }
+    
+    .open-toggle-btn span {
+        background-color: var(--accent-color);
+    }
+    
+    .open-toggle-btn span:nth-child(1) {
+        transform: translateY(0.9rem) rotate(315deg);
+    }
+    
+    .open-toggle-btn span:nth-child(2) {
         display: none;
+    }
+    
+    .open-toggle-btn span:nth-child(3) {
+        transform: translateY(0.9rem) rotate(-315deg);
     }
 }
