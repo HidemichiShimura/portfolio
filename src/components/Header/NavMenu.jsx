@@ -1,13 +1,15 @@
 import styles from "../../styles/Header/NavMenu.module.css";
 
+import { INTRO, ABOUT, PROJECTS, CONTACT } from "../../constants/index";
+
 export default function NavMenu() {
     return (
         <nav className={styles["nav-menu-container"]}>
             <ul className={styles["nav-menu"]}>
-                <li><a href="#intro">INTRO</a></li>
-                <li><a href="#about">ABOUT</a></li>
-                <li><a href="#projects">PROJECTS</a></li>
-                <li><a href="#contact">CONTACT</a></li>
+                <li><a href="#intro">{INTRO}</a></li>
+                <li><a href="#about">{ABOUT}</a></li>
+                <li><a href="#projects">{PROJECTS}</a></li>
+                <li><a href="#contact">{CONTACT}</a></li>
             </ul>
         </nav>
     )

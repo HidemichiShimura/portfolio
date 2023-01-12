@@ -1,5 +1,7 @@
 import styles from "../../styles/Header/HeaderLogo.module.css";
 
+import { PROFILE_IMG_SRC } from "../../constants/index";
+
 export default function HeaderLogo() {
     const scrollToTop = () => {
         window.scroll({
@@ -13,7 +15,7 @@ export default function HeaderLogo() {
         <div className={styles["container"]} onClick={scrollToTop}>
                 <img 
                     className={styles["profile-img"]}
-                    src={"/assets/profile-img.jpg"}
+                    src={PROFILE_IMG_SRC}
                     alt={"Profile Picture"}
                 />
                     
