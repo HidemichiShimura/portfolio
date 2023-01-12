@@ -4,6 +4,7 @@
 
 @media only screen and (max-width: 750px) {
     .nav {
+        display: block;
         width: 180px;
         background-color: var(--main-color);
         position: fixed;
@@ -14,6 +15,7 @@
     }
     
     .open-nav{
+        display: block;
         width: 180px;
         background-color: var(--main-color);
         position: fixed;
