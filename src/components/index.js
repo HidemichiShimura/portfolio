@@ -12,3 +12,8 @@ export { default as NavMenu } from "./Header/NavMenu";
  * Main
  */
 export { default as Main } from "./main/Main";
+
+/*
+ * Intro
+ */
+export { default as Intro } from "./main/intro/Intro";
