@@ -1,3 +1,5 @@
+import { Intro } from "../index";
+
 import styled from "styled-components";
 
 const MainSection = styled.main`
@@ -10,7 +12,9 @@ const MainSection = styled.main`
 
 const Main = () => {
     return (
-        <MainSection></MainSection>
+        <MainSection>
+            <Intro />
+        </MainSection>
     )
 }
 
