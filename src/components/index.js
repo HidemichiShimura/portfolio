@@ -2,6 +2,7 @@
  *
  */
 export { default as SectionTitle } from "./common/SectionTitle";
+export { default as SectionSubTitle } from "./common/SectionSubTitle";
 
 /* Header
  *
