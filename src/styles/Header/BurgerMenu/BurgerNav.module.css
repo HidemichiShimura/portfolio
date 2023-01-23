@@ -1,48 +1,49 @@
-.nav, .open-nav {
-    display: none;
+.nav,
+.open-nav {
+  display: none;
 }
 
 @media only screen and (max-width: 750px) {
-    .nav {
-        display: block;
-        width: 180px;
-        background-color: var(--main-color);
-        position: fixed;
-        top: 70px;
-        right: -300px;
-        z-index: 3;
-        transition: all 0.5s;
-    }
-    
-    .open-nav{
-        display: block;
-        width: 180px;
-        background-color: var(--main-color);
-        position: fixed;
-        top: 70px;
-        right: 0;
-        z-index: 3;
-        transition: all 0.5s;
-    }
-    
-    .inner ul {
-        margin: 0;
-        padding: 0;
-        list-style: none;
-    }
-    
-    .inner ul li {
-        border-bottom: 1px solid var(--accent-color);
-    }
-    
-    .inner ul li a {
-        color: var(--accent-color);
-        text-decoration: none;
-        display: block;
-        padding: 1rem;
-    }
-    
-    .inner ul li a:hover {
-        background-color: rgb(54, 54, 54);
-    }
+  .nav {
+    display: block;
+    width: 180px;
+    background-color: var(--main-color);
+    position: fixed;
+    top: 70px;
+    right: -300px;
+    z-index: 3;
+    transition: all 0.5s;
+  }
+
+  .open-nav {
+    display: block;
+    width: 180px;
+    background-color: var(--main-color);
+    position: fixed;
+    top: 70px;
+    right: 0;
+    z-index: 3;
+    transition: all 0.5s;
+  }
+
+  .inner ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  .inner ul li {
+    border-bottom: 1px solid var(--accent-color);
+  }
+
+  .inner ul li a {
+    color: var(--accent-color);
+    text-decoration: none;
+    display: block;
+    padding: 1rem;
+  }
+
+  .inner ul li a:hover {
+    background-color: rgb(54, 54, 54);
+  }
 }
