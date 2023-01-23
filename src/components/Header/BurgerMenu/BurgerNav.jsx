@@ -1,8 +1,8 @@
 import { useState } from "react";
 
-import styles from "../../../styles/Header/BurgerMenu/BurgerNav.module.css";
+import styles from "@/styles/Header/BurgerMenu/BurgerNav.module.css";
 
-import { INTRO, ABOUT, PROJECTS, CONTACT } from "../../../constants/index";
+import { INTRO, ABOUT, PROJECTS, CONTACT } from "@/constants";
 
 export default function BurgerNav(props) {
   const { isOpen } = props;

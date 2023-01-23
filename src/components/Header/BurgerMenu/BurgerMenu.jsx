@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-import { BurgerNav, ToggleBtn } from "../../index";
+import { BurgerNav, ToggleBtn } from "@/components";
 
 export default function BurgerMenu() {
   const [isOpen, setIsOpen] = useState(false);

@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-import styles from "../../../styles/Header/BurgerMenu/ToggleBtn.module.css";
+import styles from "@/styles/Header/BurgerMenu/ToggleBtn.module.css";
 
 export default function ToggleBtn(props) {
   const { isOpen, onClick } = props;
