@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Merriweather&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Merriweather&display=swap");
 
 /* CSS Reset */
 * {
@@ -12,13 +12,13 @@
 :root {
   --main-color: #000000;
   --text-color: #ffffff;
-  --accent-color: #FEF2B2;
+  --accent-color: #fef2b2;
 }
 
 body {
   width: 100%;
   height: 100vh;
-  font-family: 'Merriweather';
+  font-family: "Merriweather";
   background-color: var(--main-color);
   color: var(--text-color);
 }

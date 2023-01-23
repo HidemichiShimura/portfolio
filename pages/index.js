@@ -1,4 +1,4 @@
-import{ Header, Main } from "../src/components/index";
+import { Header, Main } from "../src/components/index";
 
 export default function Home() {
   return (
@@ -6,5 +6,5 @@ export default function Home() {
       <Header />
       <Main />
     </>
-  )
+  );
 }
