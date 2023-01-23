@@ -1,4 +1,4 @@
-import styles from "../../styles/Header/HeaderLogo.module.css";
+import styles from "@/styles/Header/HeaderLogo.module.css";
 
 import { PROFILE_IMG_SRC } from "../../constants/index";
 

@@ -1,4 +1,4 @@
-import styles from "../../styles/Header/NavMenu.module.css";
+import styles from "@/styles/Header/NavMenu.module.css";
 
 import { INTRO, ABOUT, PROJECTS, CONTACT } from "../../constants/index";
 
