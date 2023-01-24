@@ -1,11 +1,12 @@
-/* Common
- *
+/*
+ * Common
  */
 export { default as SectionTitle } from "./common/SectionTitle";
 export { default as SectionSubTitle } from "./common/SectionSubTitle";
+export { default as SectionLayout } from "./common/SectionLayout";
 
-/* Header
- *
+/*
+ * Header
  */
 export { default as Header } from "./Header/Header";
 export { default as HeaderLogo } from "./Header/HeaderLogo";
