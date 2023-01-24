@@ -1,7 +1,5 @@
 import styled from "styled-components";
 
-import { SectionTitle } from "@/components";
-
 const Section = styled.section`
   display: flex;
   flex-direction: column;
