@@ -12,12 +12,6 @@ const SubSection = styled.section`
   }
 `;
 
-const Title = styled.h3`
-  font-size: calc(1rem + 1.5vw);
-  color: var(--accent-color);
-  margin-bottom: 30px;
-`;
-
 const SubSectionLayout = ({ title, children }) => (
   <SubSection>
     <Title>{title}</Title>
