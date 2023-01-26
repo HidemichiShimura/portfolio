@@ -1,5 +1,7 @@
 import styled from "styled-components";
 
+import { SectionSubTitle } from "@/components";
+
 const SubSection = styled.section`
   max-width: 480px;
   display: flex;
@@ -14,7 +16,7 @@ const SubSection = styled.section`
 
 const SubSectionLayout = ({ title, children }) => (
   <SubSection>
-    <Title>{title}</Title>
+    <SectionSubTitle>{title}</SectionSubTitle>
     {children}
   </SubSection>
 );

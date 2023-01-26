@@ -6,6 +6,6 @@ const Title = styled.h1`
   margin-bottom: 30px;
 `;
 
-export default function SectionTitle({ title }) {
-  return <Title>{title}</Title>;
+export default function SectionTitle({ children }) {
+  return <Title>{children}</Title>;
 }
