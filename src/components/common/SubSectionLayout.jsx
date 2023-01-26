@@ -1,28 +1,24 @@
 import styled from "styled-components";
 
-const SubSection = styled.section`
-  max-width: 480px;
+import { SectionSubTitle } from "@/components";
+
+const SubSectionContainer = styled.section`
+  width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 1rem;
+  margin: 16px 0;
 
   @media only screen and (min-width: 751px) {
-    margin-top: 2rem;
+    margin-top: 32px;
   }
 `;
 
-const Title = styled.h3`
-  font-size: calc(1rem + 1.5vw);
-  color: var(--accent-color);
-  margin-bottom: 30px;
-`;
-
-const SubSectionLayout = ({ title, children }) => (
-  <SubSection>
-    <Title>{title}</Title>
-    {children}
-  </SubSection>
-);
-
-export default SubSectionLayout;
+export default function SubSectionLayout({ title, children }) {
+  return (
+    <SubSectionContainer>
+      <SectionSubTitle>{title}</SectionSubTitle>
+      {children}
+    </SubSectionContainer>
+  );
+}

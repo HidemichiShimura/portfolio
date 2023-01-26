@@ -1,5 +1,7 @@
 import styled from "styled-components";
 
+import { SectionTitle } from "@/components";
+
 const Section = styled.section`
   display: flex;
   flex-direction: column;
@@ -11,17 +13,11 @@ const Section = styled.section`
   }
 `;
 
-const Title = styled.h1`
-  font-size: calc(32px + 1.5vw);
-  color: var(--accent-color);
-  margin-bottom: 30px;
-`;
-
-const SectionLayout = ({ title, children }) => (
-  <Section>
-    <Title>{title}</Title>
-    {children}
-  </Section>
-);
-
-export default SectionLayout;
+export default function SectionLayout({ title, children }) {
+  return (
+    <Section>
+      <SectionTitle>{title}</SectionTitle>
+      {children}
+    </Section>
+  );
+}
