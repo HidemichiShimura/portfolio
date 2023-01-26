@@ -2,23 +2,23 @@ import styled from "styled-components";
 
 import { SectionSubTitle } from "@/components";
 
-const SubSection = styled.section`
-  max-width: 480px;
+const SubSectionContainer = styled.section`
+  width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 1rem;
+  margin: 16px 0;
 
   @media only screen and (min-width: 751px) {
-    margin-top: 2rem;
+    margin-top: 32px;
   }
 `;
 
-const SubSectionLayout = ({ title, children }) => (
-  <SubSection>
-    <SectionSubTitle>{title}</SectionSubTitle>
-    {children}
-  </SubSection>
-);
-
-export default SubSectionLayout;
+export default function SubSectionLayout({ title, children }) {
+  return (
+    <SubSectionContainer>
+      <SectionSubTitle>{title}</SectionSubTitle>
+      {children}
+    </SubSectionContainer>
+  );
+}
