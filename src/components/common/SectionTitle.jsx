@@ -1,11 +1,11 @@
 import styled from "styled-components";
 
-const SectionText = styled.h1`
+const Title = styled.h1`
+  font-size: calc(32px + 1.5vw);
   color: var(--accent-color);
+  margin-bottom: 30px;
 `;
 
-const SectionTitle = ({ title }) => {
-  return <SectionText>{title}</SectionText>;
-};
-
-export default SectionTitle;
+export default function SectionTitle({ title }) {
+  return <Title>{title}</Title>;
+}
