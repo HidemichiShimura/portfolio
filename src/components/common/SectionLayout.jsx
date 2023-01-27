@@ -6,16 +6,16 @@ const Section = styled.section`
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 4rem;
+  margin-top: 48px;
 
   @media only screen and (min-width: 751px) {
-    margin-top: 6rem;
+    margin-top: 96px;
   }
 `;
 
-export default function SectionLayout({ title, children }) {
+export default function SectionLayout({ id, title, children }) {
   return (
-    <Section>
+    <Section id={id}>
       <SectionTitle>{title}</SectionTitle>
       {children}
     </Section>
