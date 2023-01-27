@@ -12,7 +12,7 @@ const SkillListContainer = styled.ul`
 
 const SkillContainer = styled.li`
   text-align: center;
-  margin: 0 8px;
+  margin: 8px;
 `;
 
 export default function MySkillList() {
