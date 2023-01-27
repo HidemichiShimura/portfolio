@@ -13,9 +13,9 @@ const Section = styled.section`
   }
 `;
 
-export default function SectionLayout({ title, children }) {
+export default function SectionLayout({ id, title, children }) {
   return (
-    <Section>
+    <Section id={id}>
       <SectionTitle>{title}</SectionTitle>
       {children}
     </Section>
