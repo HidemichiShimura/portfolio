@@ -6,10 +6,10 @@ const Section = styled.section`
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 4rem;
+  margin-top: 48px;
 
   @media only screen and (min-width: 751px) {
-    margin-top: 6rem;
+    margin-top: 96px;
   }
 `;
 
