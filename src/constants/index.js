@@ -13,6 +13,7 @@ import {
 /*
  * Common
  */
+export const MEDIA_TABLET = "751px";
 export const PROFILE_IMG_SRC = "/assets/profile-img.jpg";
 export const NAME = "Hidemichi Shimura";
 
