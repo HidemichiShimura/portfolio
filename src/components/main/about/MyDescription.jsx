@@ -2,6 +2,8 @@ import styled from "styled-components";
 
 import { SubSectionLayout } from "@/components";
 
+import { MEDIA_TABLET } from "@/constants";
+
 import {
   MY_DESCRIPTION_TITLE,
   SELF_INTRODUCTION,
@@ -14,7 +16,7 @@ const MyDescriptionContainer = styled.div`
 `;
 
 const DescriptionText = styled.p`
-  @media only screen and (min-width: 751px) {
+  @media only screen and (min-width: ${MEDIA_TABLET}) {
     font-size: 24px;
   }
 `;

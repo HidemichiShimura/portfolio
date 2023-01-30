@@ -2,6 +2,8 @@ import styled from "styled-components";
 
 import { PROFILE_IMG_SRC, INTRO_HEADING, INTRO_DESCRIPTION } from "@/constants";
 
+import { MEDIA_TABLET } from "@/constants";
+
 const IntroSection = styled.section`
   width: 100%;
   display: flex;
@@ -20,7 +22,7 @@ const IntroHeading = styled.h1`
   color: var(--accent-color);
   margin-top: 50px;
 
-  @media only screen and (min-width: 751px) {
+  @media only screen and (min-width: ${MEDIA_TABLET}) {
     font-size: 2.5rem;
     margin-top: 80px;
   }
@@ -36,7 +38,7 @@ const IntroImg = styled.div`
   background-size: cover;
   margin-top: 30px;
 
-  @media only screen and (min-width: 751px) {
+  @media only screen and (min-width: ${MEDIA_TABLET}) {
     margin-top: 50px;
   }
 `;
@@ -45,7 +47,7 @@ const IntroDescription = styled.p`
   text-align: center;
   margin-top: 30px;
 
-  @media only screen and (min-width: 751px) {
+  @media only screen and (min-width: ${MEDIA_TABLET}) {
     font-size: 1.2rem;
     margin-top: 50px;
   }
