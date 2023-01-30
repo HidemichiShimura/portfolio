@@ -1,4 +1,4 @@
-import { Intro } from "../index";
+import { Intro, About } from "../index";
 
 import styled from "styled-components";
 
@@ -16,6 +16,7 @@ const Main = () => {
   return (
     <MainSection>
       <Intro />
+      <About />
     </MainSection>
   );
 };

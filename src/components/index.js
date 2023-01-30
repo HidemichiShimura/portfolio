@@ -25,3 +25,11 @@ export { default as Main } from "./main/Main";
  * Intro
  */
 export { default as Intro } from "./main/intro/Intro";
+
+/*
+ * About
+ */
+export { default as About } from "./main/about/About";
+export { default as MyDescription } from "./main/about/MyDescription";
+export { default as MySkills } from "./main/about/MySkills";
+export { default as MySkillList } from "./main/about/MySkillList";
