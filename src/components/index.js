@@ -5,6 +5,7 @@ export { default as SectionTitle } from "./common/SectionTitle";
 export { default as SectionSubTitle } from "./common/SectionSubTitle";
 export { default as SectionLayout } from "./common/SectionLayout";
 export { default as SubSectionLayout } from "./common/SubSectionLayout";
+export { default as LinkButton } from "./common/LinkButton";
 
 /*
  * Header
