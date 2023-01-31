@@ -34,3 +34,8 @@ export { default as About } from "./main/about/About";
 export { default as MyDescription } from "./main/about/MyDescription";
 export { default as MySkills } from "./main/about/MySkills";
 export { default as MySkillList } from "./main/about/MySkillList";
+
+/*
+ * Projects
+ */
+export { default as ProjectThumbnail } from "./main/projects/ProjectThumbnail";
