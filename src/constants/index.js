@@ -21,6 +21,7 @@ export const MEDIA_LAPTOP = "1020px";
 export const PROFILE_IMG_SRC = "/assets/profile-img.jpg";
 export const NAME = "Hidemichi Shimura";
 export const EMAIL = "hidemichi.shimura@gmail.com";
+export const CURRENT_YEAR = "2023";
 
 /*
  * Header
@@ -136,3 +137,8 @@ export const SOCIAL_DETAILS = {
     icon: <SiTwitter />,
   },
 };
+
+/*
+ * Footer
+ */
+export const COPYRIGHT_TEXT = `${CURRENT_YEAR} by ${NAME}. All rights reserved.`;

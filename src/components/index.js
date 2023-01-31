@@ -46,3 +46,8 @@ export { default as Projects } from "./main/projects/Projects";
  * Contact
  */
 export { default as Contact } from "./main/contact/Contact";
+
+/*
+ * Footer
+ */
+export { default as Footer } from "./footer/Footer";
