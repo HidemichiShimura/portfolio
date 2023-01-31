@@ -79,6 +79,7 @@ export const MY_SKILL_ICONS = {
 /*
  * Projects
  */
+export const PROJECTS_TITLE = "Projects";
 export const PROJECT_LIST = ["cocktailBot", "portfolio", "cafeDrinkCustomizer"];
 export const PROJECT_DETAILS = {
   cocktailBot: {
