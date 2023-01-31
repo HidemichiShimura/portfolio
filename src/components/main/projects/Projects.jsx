@@ -25,6 +25,7 @@ const ProjectContainer = styled.div`
 
   @media only screen and (min-width: ${MEDIA_TABLET}) {
     flex-direction: row;
+    justify-content: center;
   }
 `;
 
