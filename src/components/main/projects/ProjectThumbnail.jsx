@@ -8,6 +8,8 @@ const ImageContainer = styled.div`
   width: 300px;
   height: 200px;
   position: relative;
+  box-shadow: 0px 0px 10px 2px var(--accent-color);
+  border-radius: 3px;
 
   @media only screen and (min-width: ${MEDIA_LAPTOP}) {
     width: 400px;
