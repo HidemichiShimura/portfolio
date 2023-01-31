@@ -30,7 +30,7 @@ const FooterText = styled.p`
 export default function Footer() {
   return (
     <FooterContainer>
-      <FooterText>{COPYRIGHT_TEXT}</FooterText>
+      <FooterText>&copy; {COPYRIGHT_TEXT}</FooterText>
     </FooterContainer>
   );
 }

@@ -141,4 +141,4 @@ export const SOCIAL_DETAILS = {
 /*
  * Footer
  */
-export const COPYRIGHT_TEXT = `© ${CURRENT_YEAR} by ${NAME}. All rights reserved.`;
+export const COPYRIGHT_TEXT = `${CURRENT_YEAR} by ${NAME}. All rights reserved.`;
