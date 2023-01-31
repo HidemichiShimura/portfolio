@@ -8,10 +8,10 @@ const Section = styled.section`
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 48px;
+  margin: 48px 0;
 
   @media only screen and (min-width: ${MEDIA_TABLET}) {
-    margin-top: 96px;
+    margin: 96px 0;
   }
 `;
 
