@@ -8,7 +8,13 @@ import {
   ProjectDescription,
 } from "@/components";
 
-import { MEDIA_TABLET, PROJECT_LIST, PROJECT_DETAILS } from "@/constants";
+import {
+  MEDIA_TABLET,
+  PROJECTS,
+  PROJECTS_TITLE,
+  PROJECT_LIST,
+  PROJECT_DETAILS,
+} from "@/constants";
 
 const ProjectContainer = styled.div`
   width: 100%;
@@ -24,7 +30,7 @@ const ProjectContainer = styled.div`
 
 export default function Projects() {
   return (
-    <SectionLayout title="Projects">
+    <SectionLayout title={PROJECTS_TITLE} id={PROJECTS.toLowerCase()}>
       {PROJECT_LIST.map((project, idx) => (
         <ProjectContainer key={idx}>
           <ProjectThumbnail
