@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-import { Intro, About, Projects } from "../index";
+import { Intro, About, Projects, Contact } from "@/components";
 
 import { MEDIA_TABLET } from "@/constants";
 
@@ -20,6 +20,7 @@ const Main = () => {
       <Intro />
       <About />
       <Projects />
+      <Contact />
     </MainSection>
   );
 };
