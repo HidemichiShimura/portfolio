@@ -17,7 +17,6 @@ const FooterContainer = styled.footer`
 
 const FooterText = styled.p`
   font-size: 8px;
-  opacity: 0.7;
 
   @media only screen and (min-width: ${MEDIA_TABLET}) {
     font-size: 10px;
