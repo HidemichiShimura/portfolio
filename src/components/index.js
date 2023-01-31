@@ -40,3 +40,4 @@ export { default as MySkillList } from "./main/about/MySkillList";
  */
 export { default as ProjectThumbnail } from "./main/projects/ProjectThumbnail";
 export { default as ProjectDescription } from "./main/projects/ProjectDescription";
+export { default as Projects } from "./main/projects/Projects";

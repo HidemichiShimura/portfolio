@@ -1,0 +1,44 @@
+import Image from "next/image";
+
+import styled from "styled-components";
+
+import {
+  SectionLayout,
+  ProjectThumbnail,
+  ProjectDescription,
+} from "@/components";
+
+import { MEDIA_TABLET, PROJECT_LIST, PROJECT_DETAILS } from "@/constants";
+
+const ProjectContainer = styled.div`
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 30px;
+
+  @media only screen and (min-width: ${MEDIA_TABLET}) {
+    flex-direction: row;
+  }
+`;
+
+export default function Projects() {
+  return (
+    <SectionLayout title="Projects">
+      {PROJECT_LIST.map((project, idx) => (
+        <ProjectContainer key={idx}>
+          <ProjectThumbnail
+            src={PROJECT_DETAILS[project]["src"]}
+            alt={PROJECT_DETAILS[project]["alt"]}
+          />
+          <ProjectDescription
+            title={PROJECT_DETAILS[project]["name"]}
+            description={PROJECT_DETAILS[project]["description"]}
+            linkText="GitHub"
+            url={PROJECT_DETAILS[project]["url"]}
+          />
+        </ProjectContainer>
+      ))}
+    </SectionLayout>
+  );
+}
