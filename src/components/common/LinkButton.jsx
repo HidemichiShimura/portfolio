@@ -2,7 +2,7 @@ import Link from "next/link";
 
 import styled from "styled-components";
 
-import { MEDIA_TABLET } from "@/constants";
+import { MEDIA_LAPTOP } from "@/constants";
 
 const Button = styled(Link)`
   width: 150px;
@@ -19,12 +19,16 @@ const Button = styled(Link)`
     transition-duration: 1s;
   }
 
-  @media only screen and (min-width: ${MEDIA_TABLET}) {
+  @media only screen and (min-width: ${MEDIA_LAPTOP}) {
     width: 220px;
     font-size: 24px;
   }
 `;
 
 export default function LinkButton({ href, children }) {
-  return <Button href={href}>{children}</Button>;
+  return (
+    <Button href={href} target="_blank">
+      {children}
+    </Button>
+  );
 }

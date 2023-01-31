@@ -14,6 +14,7 @@ import {
  * Common
  */
 export const MEDIA_TABLET = "751px";
+export const MEDIA_LAPTOP = "1020px";
 export const PROFILE_IMG_SRC = "/assets/profile-img.jpg";
 export const NAME = "Hidemichi Shimura";
 
@@ -73,4 +74,36 @@ export const MY_SKILL_ICONS = {
   jest: <SiJest />,
   git: <SiGit />,
   github: <SiGithub />,
+};
+
+/*
+ * Projects
+ */
+export const PROJECTS_TITLE = "Projects";
+export const PROJECT_LIST = ["cocktailBot", "portfolio", "cafeDrinkCustomizer"];
+export const PROJECT_DETAILS = {
+  cocktailBot: {
+    name: "Slack Cocktail Bot",
+    description:
+      "Slack chat bot which suggests a cocktail for Today when the chat bot is mentioned",
+    url: "https://github.com/HidemichiShimura/slack-cocktail-bot",
+    src: "/assets/cocktail-bot.png",
+    alt: "Slack Cocktail Bot thumbnail",
+  },
+  portfolio: {
+    name: "My Portfolio Website",
+    description:
+      "My portfolio website which is fully responsive and built with Next.js",
+    url: "https://github.com/HidemichiShimura/portfolio",
+    src: "/assets/portfolio.png",
+    alt: "My portfolio website thumbnail",
+  },
+  cafeDrinkCustomizer: {
+    name: "Cafe Drink Customizer",
+    description:
+      "A web application that helps users to find and customize their favorite cafe drinks with various options as you like",
+    url: "https://github.com/HidemichiShimura/cafe-drink-customizer",
+    src: "/assets/cafeDrinkCustomizer.png",
+    alt: "Cafe Drink Customizer thumbnail",
+  },
 };
