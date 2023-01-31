@@ -8,6 +8,9 @@ import {
   SiJest,
   SiGit,
   SiGithub,
+  SiGmail,
+  SiLinkedin,
+  SiTwitter,
 } from "react-icons/si";
 
 /*
@@ -17,6 +20,7 @@ export const MEDIA_TABLET = "751px";
 export const MEDIA_LAPTOP = "1020px";
 export const PROFILE_IMG_SRC = "/assets/profile-img.jpg";
 export const NAME = "Hidemichi Shimura";
+export const EMAIL = "hidemichi.shimura@gmail.com";
 
 /*
  * Header
@@ -105,5 +109,30 @@ export const PROJECT_DETAILS = {
     url: "https://github.com/HidemichiShimura/cafe-drink-customizer",
     src: "/assets/cafeDrinkCustomizer.png",
     alt: "Cafe Drink Customizer thumbnail",
+  },
+};
+
+/*
+ * Contact
+ */
+export const CONTACT_TITLE = "Contact";
+export const CONTACT_TEXT = "Get in touch with me and I am coming back to you!";
+export const SOCIALS = ["gmail", "linkedin", "github", "twitter"];
+export const SOCIAL_DETAILS = {
+  gmail: {
+    href: `mailto:${EMAIL}`,
+    icon: <SiGmail />,
+  },
+  linkedin: {
+    href: "https://www.linkedin.com/in/hidemichi-shimura/",
+    icon: <SiLinkedin />,
+  },
+  github: {
+    href: "https://github.com/HidemichiShimura",
+    icon: <SiGithub />,
+  },
+  twitter: {
+    href: "https://twitter.com/hidemichiinvan",
+    icon: <SiTwitter />,
   },
 };
