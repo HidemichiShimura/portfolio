@@ -19,7 +19,7 @@ const ProjectContainer = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-bottom: 30px;
+  margin-bottom: 50px;
 
   @media only screen and (min-width: ${MEDIA_TABLET}) {
     flex-direction: row;
