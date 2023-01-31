@@ -39,7 +39,7 @@ const SocialIcon = styled.li`
   }
 
   @media only screen and (min-width: ${MEDIA_TABLET}) {
-    margin: 0 15px;
+    margin: 0 5px;
   }
 `;
 
