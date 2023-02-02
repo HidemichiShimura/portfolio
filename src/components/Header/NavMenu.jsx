@@ -1,24 +1,45 @@
-import styles from "@/styles/Header/NavMenu.module.css";
+import Link from "next/link";
+
+import styled from "styled-components";
 
 import { INTRO, ABOUT, PROJECTS, CONTACT } from "../../constants/index";
 
+const StyledNavMenu = styled.nav`
+  width: 300px;
+
+  @media only screen and (max-width: 750px) {
+    display: none;
+  }
+`;
+
+const NavLinkContainer = styled.ul`
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+`;
+
+const NavLink = styled(Link)`
+  font-size: 0.8rem;
+  color: var(--accent-color);
+`;
+
 export default function NavMenu() {
   return (
-    <nav className={styles["nav-menu-container"]}>
-      <ul className={styles["nav-menu"]}>
+    <StyledNavMenu>
+      <NavLinkContainer>
         <li>
-          <a href="#intro">{INTRO}</a>
+          <NavLink href="#intro">{INTRO}</NavLink>
         </li>
         <li>
-          <a href="#about">{ABOUT}</a>
+          <NavLink href="#about">{ABOUT}</NavLink>
         </li>
         <li>
-          <a href="#projects">{PROJECTS}</a>
+          <NavLink href="#projects">{PROJECTS}</NavLink>
         </li>
         <li>
-          <a href="#contact">{CONTACT}</a>
+          <NavLink href="#contact">{CONTACT}</NavLink>
         </li>
-      </ul>
-    </nav>
+      </NavLinkContainer>
+    </StyledNavMenu>
   );
 }

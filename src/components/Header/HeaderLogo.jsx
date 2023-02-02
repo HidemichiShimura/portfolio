@@ -1,6 +1,26 @@
-import styles from "@/styles/Header/HeaderLogo.module.css";
+import Image from "next/image";
+
+import styled from "styled-components";
 
 import { PROFILE_IMG_SRC } from "../../constants/index";
+
+const Container = styled.div`
+  font-size: 1rem;
+  color: var(--accent-color);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  cursor: pointer;
+
+  @media only screen and (max-width: 750px) {
+    font-size: 0.8rem;
+  }
+`;
+
+const StyledImage = styled(Image)`
+  margin-right: 0.5rem;
+  border-radius: 50%;
+`;
 
 export default function HeaderLogo() {
   const scrollToTop = () => {
@@ -12,16 +32,16 @@ export default function HeaderLogo() {
   };
 
   return (
-    <div className={styles["container"]} onClick={scrollToTop}>
-      <img
-        className={styles["profile-img"]}
+    <Container onClick={scrollToTop}>
+      <StyledImage
+        width={40}
+        height={40}
         src={PROFILE_IMG_SRC}
         alt={"Profile Picture"}
       />
-
       <div>
         <strong>Hidemichi Shimura</strong>
       </div>
-    </div>
+    </Container>
   );
 }
