@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-import { HeaderLogo, BurgerMenu, NavMenu } from "../index";
+import { HeaderLogo, BurgerMenu, NavMenu } from "@/components";
 
 const StyledHeader = styled.header`
   width: 100%;

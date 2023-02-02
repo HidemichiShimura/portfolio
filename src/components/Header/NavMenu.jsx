@@ -2,7 +2,7 @@ import Link from "next/link";
 
 import styled from "styled-components";
 
-import { INTRO, ABOUT, PROJECTS, CONTACT } from "../../constants/index";
+import { INTRO, ABOUT, PROJECTS, CONTACT } from "@/constants";
 
 const StyledNavMenu = styled.nav`
   width: 300px;

@@ -2,7 +2,7 @@ import Image from "next/image";
 
 import styled from "styled-components";
 
-import { PROFILE_IMG_SRC } from "../../constants/index";
+import { PROFILE_IMG_SRC } from "@/constants";
 
 const Container = styled.div`
   font-size: 1rem;
