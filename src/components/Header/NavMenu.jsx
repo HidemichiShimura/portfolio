@@ -2,13 +2,14 @@ import Link from "next/link";
 
 import styled from "styled-components";
 
-import { INTRO, ABOUT, PROJECTS, CONTACT } from "@/constants";
+import { MEDIA_TABLET, INTRO, ABOUT, PROJECTS, CONTACT } from "@/constants";
 
 const StyledNavMenu = styled.nav`
-  width: 300px;
+  display: none;
 
-  @media only screen and (max-width: 750px) {
-    display: none;
+  @media only screen and (min-width: ${MEDIA_TABLET}) {
+    display: block;
+    width: 300px;
   }
 `;
 

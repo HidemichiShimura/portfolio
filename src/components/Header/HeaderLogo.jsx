@@ -2,16 +2,17 @@ import Image from "next/image";
 
 import styled from "styled-components";
 
-import { PROFILE_IMG_SRC } from "@/constants";
+import { MEDIA_TABLET, PROFILE_IMG_SRC } from "@/constants";
 
 const Container = styled.div`
+  font-size: 12px;
   color: var(--accent-color);
   display: flex;
   align-items: center;
   cursor: pointer;
 
-  @media only screen and (max-width: 750px) {
-    font-size: 12px;
+  @media only screen and (min-width: ${MEDIA_TABLET}) {
+    font-size: 16px;
   }
 `;
 
