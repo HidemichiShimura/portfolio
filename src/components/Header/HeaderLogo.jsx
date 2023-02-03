@@ -5,10 +5,8 @@ import styled from "styled-components";
 import { PROFILE_IMG_SRC } from "@/constants";
 
 const Container = styled.div`
-  font-size: 1rem;
   color: var(--accent-color);
   display: flex;
-  flex-direction: row;
   align-items: center;
   cursor: pointer;
 

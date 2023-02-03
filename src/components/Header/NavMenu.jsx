@@ -14,7 +14,6 @@ const StyledNavMenu = styled.nav`
 
 const NavLinkContainer = styled.ul`
   display: flex;
-  flex-direction: row;
   justify-content: space-evenly;
 `;
 
