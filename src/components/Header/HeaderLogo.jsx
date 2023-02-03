@@ -2,7 +2,7 @@ import Image from "next/image";
 
 import styled from "styled-components";
 
-import { MEDIA_TABLET, PROFILE_IMG_SRC } from "@/constants";
+import { MEDIA_TABLET, PROFILE_IMG_SRC, NAME } from "@/constants";
 
 const Container = styled.div`
   font-size: 12px;
@@ -39,7 +39,7 @@ export default function HeaderLogo() {
         alt={"Profile Picture"}
       />
       <div>
-        <strong>Hidemichi Shimura</strong>
+        <strong>{NAME}</strong>
       </div>
     </Container>
   );
