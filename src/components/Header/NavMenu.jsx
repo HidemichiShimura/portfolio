@@ -19,7 +19,7 @@ const NavLinkContainer = styled.ul`
 `;
 
 const NavLink = styled(Link)`
-  font-size: 0.8rem;
+  font-size: 12px;
   color: var(--accent-color);
 `;
 

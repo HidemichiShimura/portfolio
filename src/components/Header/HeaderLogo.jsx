@@ -13,12 +13,12 @@ const Container = styled.div`
   cursor: pointer;
 
   @media only screen and (max-width: 750px) {
-    font-size: 0.8rem;
+    font-size: 12px;
   }
 `;
 
 const StyledImage = styled(Image)`
-  margin-right: 0.5rem;
+  margin-right: 8px;
   border-radius: 50%;
 `;
 
