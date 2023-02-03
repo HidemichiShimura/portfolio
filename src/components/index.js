@@ -1,4 +1,9 @@
 /*
+ * Styles
+ */
+export { default as GlobalStyle } from "./styles/GlobalStyle";
+
+/*
  * Common
  */
 export { default as SectionTitle } from "./common/SectionTitle";
