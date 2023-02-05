@@ -16,9 +16,14 @@ const Container = styled.div`
   }
 `;
 
-const StyledImage = styled(Image)`
-  margin-right: 8px;
+const ProfileImage = styled.div`
+  height: 40px;
+  width: 40px;
   border-radius: 50%;
+  background-image: url(${PROFILE_IMG_SRC});
+  background-position: center;
+  background-size: cover;
+  margin-right: 10px;
 `;
 
 export default function HeaderLogo() {
@@ -32,12 +37,7 @@ export default function HeaderLogo() {
 
   return (
     <Container onClick={scrollToTop}>
-      <StyledImage
-        width={40}
-        height={40}
-        src={PROFILE_IMG_SRC}
-        alt={"Profile Picture"}
-      />
+      <ProfileImage />
       <div>
         <strong>{NAME}</strong>
       </div>
