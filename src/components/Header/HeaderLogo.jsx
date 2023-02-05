@@ -1,5 +1,3 @@
-import Image from "next/image";
-
 import styled from "styled-components";
 
 import { MEDIA_TABLET, PROFILE_IMG_SRC, NAME } from "@/constants";
