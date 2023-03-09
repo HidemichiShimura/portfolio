@@ -1,36 +1,38 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# **My Personal Portfolio Website**
 
-## Getting Started
+![](./public/readme/portfolio-thumbnail.png)
 
-First, run the development server:
+<br/>
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+## 📚**Table of Contents**
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- [Description](#📖-description)
+- [Built with](#🛠-built-with)
+- [Achievements](#🏆-achievements)
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+<br/>
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+## 📖 **Description**
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+This is my portfolio website developed with a combination of advanced web development technologies, including HTML, CSS, JavaScript, React, Next.js, and styled-components. It has been crafted with great care to ensure its full responsiveness across all devices and its optimization for search engine visibility, making it SEO friendly.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+<br/>
 
-## Learn More
+## 🛠 **Built with**
 
-To learn more about Next.js, take a look at the following resources:
+<p align="left"> 
+  <img alt="html5 icon" src="https://img.icons8.com/color/48/undefined/html-5--v1.png"/>
+  <img alt="css3 icon" src="https://img.icons8.com/color/48/undefined/css3.png"/>
+  <img src="https://img.icons8.com/color/48/null/javascript--v1.png"/>
+  <img alt="react icon" src="https://img.icons8.com/external-tal-revivo-color-tal-revivo/48/null/external-react-a-javascript-library-for-building-user-interfaces-logo-color-tal-revivo.png"/>
+  <img alt="next.js icon" src="https://img.icons8.com/fluency-systems-regular/48/ffffff/nextjs.png"/>
+  <img alt="styled-components" src="./public/readme/styled-components.png" width="48"/>
+</p>
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+<br/>
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## 🏆 **Achievements**
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- Modern front-end development with React and Next.js
+- SEO Optimization with Next.js
+- Utilization of CSS-in-JS with styled-components
