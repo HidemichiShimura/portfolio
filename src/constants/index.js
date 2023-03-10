@@ -22,6 +22,20 @@ export const PROFILE_IMG_SRC = "/assets/profile-img.jpg";
 export const NAME = "Hidemichi Shimura";
 export const EMAIL = "hidemichi.shimura@gmail.com";
 export const CURRENT_YEAR = "2023";
+export const JOB_TITLE = "front-end developer";
+
+/*
+ * Meta data
+ */
+export const META_DATA = {
+  title: `${NAME} | ${JOB_TITLE}`,
+  charset: "utf-8",
+  viewport: "width=device-width, initial-scale=1.0",
+  description: `${NAME}'s portfolio website`,
+  keywords:
+    "HTML, CSS, JavaScript, React, Next.js, styled-components CSS-in-JS",
+  author: NAME,
+};
 
 /*
  * Header
