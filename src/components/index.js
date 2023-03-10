@@ -1,4 +1,10 @@
 /*
+ * Meta data
+ */
+
+export { default as CustomHead } from "./meta/CustomHead";
+
+/*
  * Styles
  */
 export { default as GlobalStyle } from "./styles/GlobalStyle";
