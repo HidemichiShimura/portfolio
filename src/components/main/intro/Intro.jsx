@@ -6,6 +6,7 @@ import { MEDIA_TABLET } from "@/constants";
 
 const IntroSection = styled.section`
   width: 100%;
+  height: calc(100vh - var(--header-height));
   display: flex;
   align-items: center;
 `;
@@ -20,11 +21,9 @@ const IntroWrapper = styled.div`
 const IntroHeading = styled.h1`
   font-size: 1.5rem;
   color: var(--accent-color);
-  margin-top: 50px;
 
   @media only screen and (min-width: ${MEDIA_TABLET}) {
     font-size: 2.5rem;
-    margin-top: 80px;
   }
 `;
 
