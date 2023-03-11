@@ -18,6 +18,7 @@ const GlobalStyle = createGlobalStyle`
     --main-color: #000000;
     --text-color: #ffffff;
     --accent-color: #fef2b2;
+    --header-height: 70px;
   }
 
   body {
