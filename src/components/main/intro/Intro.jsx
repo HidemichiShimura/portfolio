@@ -1,8 +1,11 @@
 import styled from "styled-components";
 
-import { PROFILE_IMG_SRC, INTRO_HEADING, INTRO_DESCRIPTION } from "@/constants";
-
-import { MEDIA_TABLET } from "@/constants";
+import {
+  MEDIA_TABLET,
+  PROFILE_IMG_SRC,
+  INTRO_HEADING,
+  INTRO_DESCRIPTION,
+} from "@/constants";
 
 const IntroSection = styled.section`
   width: 100%;
