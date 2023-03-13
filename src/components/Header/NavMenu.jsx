@@ -21,6 +21,11 @@ const NavLinkContainer = styled.ul`
 const NavLink = styled(Link)`
   font-size: 12px;
   color: var(--accent-color);
+
+  &:hover {
+    opacity: var(--opacity);
+    transition-duration: var(--transition-duration);
+  }
 `;
 
 export default function NavMenu() {

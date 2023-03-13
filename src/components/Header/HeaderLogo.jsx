@@ -9,6 +9,11 @@ const Container = styled.div`
   align-items: center;
   cursor: pointer;
 
+  &:hover {
+    opacity: var(--opacity);
+    transition-duration: var(--transition-duration);
+  }
+
   @media only screen and (min-width: ${MEDIA_TABLET}) {
     font-size: 16px;
   }
