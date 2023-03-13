@@ -19,6 +19,8 @@ const GlobalStyle = createGlobalStyle`
     --text-color: #ffffff;
     --accent-color: #fef2b2;
     --header-height: 70px;
+    --opacity: 0.6;
+    --transition-duration: 0.3s;
   }
 
   body {
