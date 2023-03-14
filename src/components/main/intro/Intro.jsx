@@ -25,6 +25,27 @@ const IntroHeading = styled.h1`
   font-size: 1.5rem;
   color: var(--accent-color);
 
+  // Linear gradient animation
+  background-image: linear-gradient(
+    90deg,
+    var(--accent-color) 0%,
+    var(--text-color) 40%,
+    var(--accent-color) 80%
+  );
+  background-size: 200% auto;
+  background-clip: text;
+  text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 3s ease-in-out infinite;
+  display: inline-block;
+
+  @keyframes textclip {
+    to {
+      background-position: 200% center;
+    }
+  }
+
   @media only screen and (min-width: ${MEDIA_TABLET}) {
     font-size: 2.5rem;
   }
