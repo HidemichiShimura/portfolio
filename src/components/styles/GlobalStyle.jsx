@@ -15,7 +15,7 @@ const GlobalStyle = createGlobalStyle`
   }
 
   :root {
-    --main-color: #000000;
+    --main-color: #171717;
     --text-color: #ffffff;
     --accent-color: #fef2b2;
     --header-height: 70px;
