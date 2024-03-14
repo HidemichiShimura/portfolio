@@ -19,6 +19,7 @@ const config: Config = {
       },
       colors: {
         "light-gray": "rgb(169, 169, 169)",
+        black: "rgb(18, 18, 18)",
       },
     },
   },
