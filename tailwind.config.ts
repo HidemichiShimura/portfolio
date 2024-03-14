@@ -17,6 +17,9 @@ const config: Config = {
       fontFamily: {
         "60s-stripe": ["var(--font-60s-stripe)"],
       },
+      colors: {
+        "light-gray": "rgb(169, 169, 169)",
+      },
     },
   },
   plugins: [],
