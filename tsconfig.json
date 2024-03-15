@@ -18,7 +18,9 @@
       }
     ],
     "paths": {
-      "@/*": ["./src/*"]
+      "@/*": ["./src/*"],
+      "@/fonts": ["./src/styles/fonts"],
+      "@/ui": ["./src/ui/index"]
     }
   },
   "include": [
