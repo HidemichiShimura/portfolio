@@ -9,17 +9,18 @@ const config: Config = {
   ],
   theme: {
     extend: {
-      backgroundImage: {
-        "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
-        "gradient-conic":
-          "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
-      },
       fontFamily: {
         "60s-stripe": ["var(--font-60s-stripe)"],
       },
       colors: {
         "light-gray": "rgb(169, 169, 169)",
         black: "rgb(18, 18, 18)",
+      },
+      animation: {
+        "radial-gradient": "gradient 20s ease infinite",
+      },
+      backgroundImage: {
+        grid: "url(/images/grid.svg)",
       },
     },
   },
