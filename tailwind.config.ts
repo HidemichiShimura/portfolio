@@ -19,6 +19,9 @@ const config: Config = {
       animation: {
         "radial-gradient": "gradient 20s ease infinite",
       },
+      backgroundImage: {
+        grid: "url(/images/grid.svg)",
+      },
     },
   },
   plugins: [],

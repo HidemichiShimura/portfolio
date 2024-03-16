@@ -1,9 +1,9 @@
 import type { Meta, StoryObj } from "@storybook/react";
-import RadialLinearContainer from "./RadialLinearContainer";
+import Grid from "./Grid";
 
-const meta: Meta<typeof RadialLinearContainer> = {
-  title: "atoms/RadialLinearContainer",
-  component: RadialLinearContainer,
+const meta: Meta<typeof Grid> = {
+  title: "atoms/Grid",
+  component: Grid,
   tags: ["autodocs"],
   parameters: {
     controls: { expanded: true },
@@ -16,6 +16,10 @@ type Story = StoryObj<typeof meta>;
 
 export const Default: Story = {
   args: {
-    children: <p className="text-neutral-100">Children</p>,
+    children: (
+      <div className="flex h-screen w-screen items-center justify-center">
+        <p>iorgjariog</p>
+      </div>
+    ),
   },
 };
