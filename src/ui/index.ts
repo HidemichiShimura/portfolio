@@ -7,3 +7,4 @@ export { default as Icon } from "./atoms/Icon/Icon";
 export { default as RadialLinearContainer } from "./atoms/RadialLinearContainer/RadialLinearContainer";
 export { default as Grid } from "./atoms/Grid/Grid";
 export { default as GradientCard } from "./atoms/GradientCard/GradientCard";
+export { default as Card } from "./atoms/Card/Card";
