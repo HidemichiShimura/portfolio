@@ -20,7 +20,8 @@
     "paths": {
       "@/*": ["./src/*"],
       "@/fonts": ["./src/styles/fonts"],
-      "@/ui": ["./src/ui/index"]
+      "@/ui": ["./src/ui/index"],
+      "@/types": ["./src/types/types.d"]
     }
   },
   "include": [

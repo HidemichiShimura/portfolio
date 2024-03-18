@@ -11,3 +11,4 @@ export { default as Card } from "./atoms/Card/Card";
 
 // Molecules
 export { default as HeroHeadings } from "./molecules/HeroHeadings/HeroHeadings";
+export { default as SkillList } from "./molecules/SkillList/SkillList";

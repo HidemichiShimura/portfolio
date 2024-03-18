@@ -54,59 +54,57 @@ type IconTypes = {
 };
 
 export default function Icon({ icon }: IconTypes) {
-  const commonClassName = "h-12 w-12 md:h-20 md:w-20";
-
   switch (icon) {
     case "javascript":
-      return <img src={javascript.src} className={commonClassName} />;
+      return <img src={javascript.src} />;
     case "typescript":
-      return <img src={typescript.src} className={commonClassName} />;
+      return <img src={typescript.src} />;
     case "sass":
-      return <img src={sass.src} className={commonClassName} />;
+      return <img src={sass.src} />;
     case "bootstrap":
-      return <img src={bootstrap.src} className={commonClassName} />;
+      return <img src={bootstrap.src} />;
     case "tailwind":
-      return <img src={tailwind.src} className={commonClassName} />;
+      return <img src={tailwind.src} />;
     case "react":
-      return <img src={react.src} className={commonClassName} />;
+      return <img src={react.src} />;
     case "nextjs":
-      return <img src={nextjs.src} className={commonClassName} />;
+      return <img src={nextjs.src} />;
     case "materialui":
-      return <img src={materialui.src} className={commonClassName} />;
+      return <img src={materialui.src} />;
     case "redux":
-      return <img src={redux.src} className={commonClassName} />;
+      return <img src={redux.src} />;
     case "jest":
-      return <img src={jest.src} className={commonClassName} />;
+      return <img src={jest.src} />;
     case "storybook":
-      return <img src={storybook.src} className={commonClassName} />;
+      return <img src={storybook.src} />;
     case "node":
-      return <img src={node.src} className={commonClassName} />;
+      return <img src={node.src} />;
     case "express":
-      return <img src={express.src} className={commonClassName} />;
+      return <img src={express.src} />;
     case "mongodb":
-      return <img src={mongodb.src} className={commonClassName} />;
+      return <img src={mongodb.src} />;
     case "mongoose":
-      return <img src={mongoose.src} className={commonClassName} />;
+      return <img src={mongoose.src} />;
     case "postgres":
-      return <img src={postgres.src} className={commonClassName} />;
+      return <img src={postgres.src} />;
     case "prisma":
-      return <img src={prisma.src} className={commonClassName} />;
+      return <img src={prisma.src} />;
     case "firebase":
-      return <img src={firebase.src} className={commonClassName} />;
+      return <img src={firebase.src} />;
     case "git":
-      return <img src={git.src} className={commonClassName} />;
+      return <img src={git.src} />;
     case "github":
-      return <img src={github.src} className={commonClassName} />;
+      return <img src={github.src} />;
     case "webpack":
-      return <img src={webpack.src} className={commonClassName} />;
+      return <img src={webpack.src} />;
     case "figma":
-      return <img src={figma.src} className={commonClassName} />;
+      return <img src={figma.src} />;
     case "mail":
-      return <img src={mail.src} className={commonClassName} />;
+      return <img src={mail.src} />;
     case "linkedin":
-      return <img src={linkedin.src} className={commonClassName} />;
+      return <img src={linkedin.src} />;
     case "link":
-      return <img src={link.src} className={commonClassName} />;
+      return <img src={link.src} />;
     default:
   }
 }
