@@ -1,7 +1,7 @@
 import { Icon } from "@/ui";
-import type { Skills } from "@/types";
+import type { Skill } from "@/types";
 
-type SkillListTypes = { list: Skills[] };
+type SkillListTypes = { list: Skill[] };
 
 export default function SkillList({ list }: SkillListTypes) {
   return (
