@@ -1,4 +1,4 @@
-export type Skills =
+export type Skill =
   | "javascript"
   | "typescript"
   | "sass"
