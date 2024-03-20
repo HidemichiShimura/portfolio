@@ -1,4 +1,4 @@
-import PageHeading from "../../atoms/PageHeading/PageHeading";
+import { PageHeading } from "@/ui";
 
 export default function HeroHeadings() {
   return (

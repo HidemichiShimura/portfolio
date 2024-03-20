@@ -1,5 +1,5 @@
 import type { Meta, StoryObj } from "@storybook/react";
-import SkillList from "./SkillList";
+import { SkillList } from "@/ui";
 
 const allSkills = [
   "javascript",

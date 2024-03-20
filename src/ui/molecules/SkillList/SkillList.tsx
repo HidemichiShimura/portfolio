@@ -1,4 +1,4 @@
-import Icon from "../../atoms/Icon/Icon";
+import { Icon } from "@/ui";
 import type { Skills } from "@/types";
 
 type SkillListTypes = { list: Skills[] };
