@@ -10,7 +10,11 @@ export default function PageHeading({
   const commonClassName = "font-60s-stripe text-neutral-100";
 
   if (type === "main") {
-    return <h1 className={`${commonClassName} text-8xl`}>{children}</h1>;
+    return (
+      <h1 className={`${commonClassName} text-6xl md:text-8xl`}>{children}</h1>
+    );
   }
-  return <h2 className={`${commonClassName} text-4xl`}>{children}</h2>;
+  return (
+    <h2 className={`${commonClassName} text-2xl md:text-4xl`}>{children}</h2>
+  );
 }
