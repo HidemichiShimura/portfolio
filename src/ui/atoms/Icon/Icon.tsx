@@ -23,37 +23,13 @@ import figma from "/public/images/icons/figma.svg";
 import mail from "/public/images/icons/mail.svg";
 import linkedin from "/public/images/icons/linkedin.svg";
 import link from "/public/images/icons/link.svg";
+import type { Skills } from "@/types";
 
-type IconTypes = {
-  icon:
-    | "javascript"
-    | "typescript"
-    | "sass"
-    | "bootstrap"
-    | "tailwind"
-    | "react"
-    | "nextjs"
-    | "materialui"
-    | "redux"
-    | "jest"
-    | "storybook"
-    | "node"
-    | "express"
-    | "mongodb"
-    | "mongoose"
-    | "postgres"
-    | "prisma"
-    | "firebase"
-    | "git"
-    | "github"
-    | "webpack"
-    | "figma"
-    | "mail"
-    | "linkedin"
-    | "link";
+type Icon = {
+  icon: Skills | "mail" | "linkedin" | "link";
 };
 
-export default function Icon({ icon }: IconTypes) {
+export default function Icon({ icon }: Icon) {
   switch (icon) {
     case "javascript":
       return <img src={javascript.src} />;
