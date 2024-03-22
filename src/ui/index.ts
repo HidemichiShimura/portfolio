@@ -20,3 +20,6 @@ export { default as Intro } from "./organisms/Intro/Intro";
 export { default as Skills } from "./organisms/Skills/Skills";
 export { default as Works } from "./organisms/Works/Works";
 export { default as Footer } from "./organisms/Footer/Footer";
+
+// Templates
+export { default as Template } from "./templates/Template";
