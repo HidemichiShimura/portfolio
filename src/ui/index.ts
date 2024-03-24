@@ -23,3 +23,6 @@ export { default as Footer } from "./organisms/Footer/Footer";
 
 // Templates
 export { default as Template } from "./templates/Template";
+
+// Pages
+export { default as Home } from "./pages/Home";
