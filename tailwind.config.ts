@@ -21,6 +21,12 @@ const config: Config = {
       },
       backgroundImage: {
         grid: "url(/images/grid.svg)",
+        wt: "url(/images/works/weight-tracker.gif)",
+        cdc: "url(/images/works/cafe-drink-customizer.gif)",
+        scb: "url(/images/works/cocktail-bot.gif)",
+      },
+      invert: {
+        half: ".5",
       },
     },
   },

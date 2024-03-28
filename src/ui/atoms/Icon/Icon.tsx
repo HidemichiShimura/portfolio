@@ -43,7 +43,7 @@ export default function Icon({ icon }: Icon) {
     case "react":
       return <img src={react.src} />;
     case "nextjs":
-      return <img src={nextjs.src} />;
+      return <img src={nextjs.src} className="invert" />;
     case "materialui":
       return <img src={materialui.src} />;
     case "redux":
@@ -67,17 +67,17 @@ export default function Icon({ icon }: Icon) {
     case "git":
       return <img src={git.src} />;
     case "github":
-      return <img src={github.src} />;
+      return <img src={github.src} className="invert" />;
     case "webpack":
       return <img src={webpack.src} />;
     case "figma":
       return <img src={figma.src} />;
     case "mail":
-      return <img src={mail.src} />;
+      return <img src={mail.src} className="invert-half" />;
     case "linkedin":
-      return <img src={linkedin.src} />;
+      return <img src={linkedin.src} className="invert-half" />;
     case "link":
-      return <img src={link.src} />;
+      return <img src={link.src} className="invert" />;
     default:
   }
 }
