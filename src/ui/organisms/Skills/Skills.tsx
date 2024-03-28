@@ -3,37 +3,39 @@ import { SectionHeading, GradientCard, Typography, SkillList } from "@/ui";
 
 export default function Skills() {
   return (
-    <section className="flex flex-col gap-4">
+    <section className="flex min-h-screen flex-col justify-center gap-8">
       <SectionHeading>SKILLS</SectionHeading>
-      <Skill heading="Languages" list={["javascript", "typescript"]} />
-      <Skill
-        heading="Frontend"
-        list={[
-          "sass",
-          "bootstrap",
-          "tailwind",
-          "react",
-          "nextjs",
-          "materialui",
-          "redux",
-          "jest",
-          "storybook",
-        ]}
-      />
-      <Skill
-        heading="Backend"
-        list={[
-          "node",
-          "express",
-          "mongodb",
-          "mongoose",
-          "postgres",
-          "prisma",
-          "firebase",
-        ]}
-      />
-      <Skill heading="Tools" list={["git", "github", "webpack", "figma"]} />
-      <StayTune />
+      <div className="flex flex-col justify-center gap-8">
+        <Skill heading="Languages" list={["javascript", "typescript"]} />
+        <Skill
+          heading="Frontend"
+          list={[
+            "sass",
+            "bootstrap",
+            "tailwind",
+            "react",
+            "nextjs",
+            "materialui",
+            "redux",
+            "jest",
+            "storybook",
+          ]}
+        />
+        <Skill
+          heading="Backend"
+          list={[
+            "node",
+            "express",
+            "mongodb",
+            "mongoose",
+            "postgres",
+            "prisma",
+            "firebase",
+          ]}
+        />
+        <Skill heading="Tools" list={["git", "github", "webpack", "figma"]} />
+        <StayTune />
+      </div>
     </section>
   );
 }
