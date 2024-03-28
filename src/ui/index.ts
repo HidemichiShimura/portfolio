@@ -13,6 +13,7 @@ export { default as Card } from "./atoms/Card/Card";
 export { default as HeroHeadings } from "./molecules/HeroHeadings/HeroHeadings";
 export { default as SkillList } from "./molecules/SkillList/SkillList";
 export { default as LinkList } from "./molecules/LinkList/LinkList";
+export { default as Work } from "./molecules/Work/Work";
 
 // Organisms
 export { default as Hero } from "./organisms/Hero/Hero";

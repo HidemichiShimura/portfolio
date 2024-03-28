@@ -9,9 +9,9 @@ export default function Home() {
           <Intro />
           <Skills />
           <Works />
-          <Footer />
         </>
       }
+      footer={<Footer />}
     ></Template>
   );
 }

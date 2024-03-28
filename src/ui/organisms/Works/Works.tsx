@@ -1,21 +1,14 @@
-import { Card, SectionHeading } from "@/ui";
-import weightTracker from "../../../../public/images/works/weight-tracker.gif";
-import cafeDrinkCustomizer from "../../../../public/images/works/cafe-drink-customizer.gif";
-import slackCocktailBot from "../../../../public/images/works/cocktail-bot.gif";
+import { SectionHeading, Work } from "@/ui";
 
 export default function Works() {
   return (
-    <section className="flex flex-col gap-4">
+    <section className="flex min-h-screen flex-col justify-center gap-8">
       <SectionHeading>WORKS</SectionHeading>
-      <Card>
-        <img src={weightTracker.src} />
-      </Card>
-      <Card>
-        <img src={cafeDrinkCustomizer.src} />
-      </Card>
-      <Card>
-        <img src={slackCocktailBot.src} />
-      </Card>
+      <div className="flex flex-col justify-center gap-4">
+        <Work name="wt" />
+        <Work name="cdc" />
+        <Work name="scb" />
+      </div>
     </section>
   );
 }
