@@ -1,39 +1,37 @@
 import type { Skill as SkillType } from "@/types/types";
 import { SectionHeading, GradientCard, Typography, SkillList } from "@/ui";
 
+const SKILL_LIST: {
+  languages: SkillType[];
+  frontend: SkillType[];
+  backend: SkillType[];
+  tools: SkillType[];
+} = {
+  languages: ["javascript", "typescript"],
+  frontend: [
+    "sass",
+    "bootstrap",
+    "tailwind",
+    "react",
+    "nextjs",
+    "materialui",
+    "redux",
+    "jest",
+    "storybook",
+  ],
+  backend: ["node", "express", "mongodb", "postgres", "prisma", "firebase"],
+  tools: ["git", "github", "webpack", "figma"],
+};
+
 export default function Skills() {
   return (
     <section className="flex min-h-screen flex-col justify-center gap-8">
       <SectionHeading>SKILLS</SectionHeading>
-      <div className="flex flex-col justify-center gap-8">
-        <Skill heading="Languages" list={["javascript", "typescript"]} />
-        <Skill
-          heading="Frontend"
-          list={[
-            "sass",
-            "bootstrap",
-            "tailwind",
-            "react",
-            "nextjs",
-            "materialui",
-            "redux",
-            "jest",
-            "storybook",
-          ]}
-        />
-        <Skill
-          heading="Backend"
-          list={[
-            "node",
-            "express",
-            "mongodb",
-            "mongoose",
-            "postgres",
-            "prisma",
-            "firebase",
-          ]}
-        />
-        <Skill heading="Tools" list={["git", "github", "webpack", "figma"]} />
+      <div className="flex flex-col justify-center gap-4">
+        <Skill heading="Languages" list={SKILL_LIST.languages} />
+        <Skill heading="Frontend" list={SKILL_LIST.frontend} />
+        <Skill heading="Backend" list={SKILL_LIST.backend} />
+        <Skill heading="Tools" list={SKILL_LIST.tools} />
         <StayTune />
       </div>
     </section>

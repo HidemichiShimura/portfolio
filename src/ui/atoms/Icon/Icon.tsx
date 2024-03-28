@@ -12,7 +12,6 @@ import storybook from "/public/images/icons/storybook.svg";
 import node from "/public/images/icons/nodejs.svg";
 import express from "/public/images/icons/express.svg";
 import mongodb from "/public/images/icons/mongodb.svg";
-import mongoose from "/public/images/icons/mongoose.svg";
 import postgres from "/public/images/icons/postgresql.svg";
 import prisma from "/public/images/icons/prisma.svg";
 import firebase from "/public/images/icons/firebase.svg";
@@ -23,10 +22,10 @@ import figma from "/public/images/icons/figma.svg";
 import mail from "/public/images/icons/mail.svg";
 import linkedin from "/public/images/icons/linkedin.svg";
 import link from "/public/images/icons/link.svg";
-import type { Skills } from "@/types";
+import type { Skill } from "@/types";
 
 type Icon = {
-  icon: Skills | "mail" | "linkedin" | "link";
+  icon: Skill | "mail" | "linkedin" | "link";
 };
 
 export default function Icon({ icon }: Icon) {
@@ -59,8 +58,6 @@ export default function Icon({ icon }: Icon) {
       return <img src={express.src} />;
     case "mongodb":
       return <img src={mongodb.src} />;
-    case "mongoose":
-      return <img src={mongoose.src} />;
     case "postgres":
       return <img src={postgres.src} />;
     case "prisma":
