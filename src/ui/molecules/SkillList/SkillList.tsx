@@ -5,7 +5,7 @@ type SkillListTypes = { list: Skill[] };
 
 export default function SkillList({ list }: SkillListTypes) {
   return (
-    <ul className="flex w-4/5 min-w-80 max-w-2xl flex-wrap gap-2">
+    <ul className="flex w-4/5 items-center justify-center gap-2 ">
       {list.map((skill) => (
         <li className="min-w-8 max-w-20" key={skill}>
           <Icon icon={skill} />
