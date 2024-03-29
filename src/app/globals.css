@@ -1,3 +1,26 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+  @keyframes gradient {
+    0% {
+      background-position: -100% 25%;
+    }
+    25% {
+      background-position: 30% 200%;
+    }
+    45% {
+      background-position: 85% 5%;
+    }
+    70% {
+      background-position: 35% 75%;
+    }
+    85% {
+      background-position: 5% 95%;
+    }
+    100% {
+      background-position: -100% 25%;
+    }
+  }
+}
