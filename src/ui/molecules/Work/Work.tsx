@@ -1,6 +1,6 @@
 import { Card, LinkList } from "@/ui";
 
-type Project = "wt" | "cdc" | "scb";
+type Project = "wt" | "cdc" | "scb" | "pf";
 type WorkTypes = { name: Project };
 
 export default function Work({ name }: WorkTypes) {
@@ -20,6 +20,10 @@ export default function Work({ name }: WorkTypes) {
     case "scb":
       workName = "Slack Cocktail Bot";
       bgClass = "bg-scb";
+      break;
+    case "pf":
+      workName = "Portfolio";
+      bgClass = "bg-pf";
       break;
     default:
       break;
@@ -53,6 +57,13 @@ function WorkLinkList({ name }: WorkTypes) {
     case "scb":
       return (
         <LinkList github="https://github.com/HidemichiShimura/slack-cocktail-bot" />
+      );
+    case "pf":
+      return (
+        <LinkList
+          github="https://github.com/HidemichiShimura/portfolio"
+          link="https://portfolio-hidemichishimura.vercel.app/"
+        />
       );
     default:
   }
