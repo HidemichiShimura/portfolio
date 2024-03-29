@@ -1,5 +1,11 @@
 import type { Skill as SkillType } from "@/types/types";
-import { SectionHeading, GradientCard, Typography, SkillList } from "@/ui";
+import {
+  SectionHeading,
+  GradientCard,
+  Typography,
+  SkillList,
+  SkillCard,
+} from "@/ui";
 
 const SKILL_LIST: {
   languages: SkillType[];
@@ -10,7 +16,6 @@ const SKILL_LIST: {
   languages: ["javascript", "typescript"],
   frontend: [
     "sass",
-    "bootstrap",
     "tailwind",
     "react",
     "nextjs",
@@ -27,34 +32,34 @@ export default function Skills() {
   return (
     <section className="flex min-h-screen flex-col justify-center gap-8">
       <SectionHeading>SKILLS</SectionHeading>
-      <div className="flex flex-col justify-center gap-4">
-        <Skill heading="Languages" list={SKILL_LIST.languages} />
-        <Skill heading="Frontend" list={SKILL_LIST.frontend} />
-        <Skill heading="Backend" list={SKILL_LIST.backend} />
-        <Skill heading="Tools" list={SKILL_LIST.tools} />
-        <StayTune />
+      <div className="grid grid-cols-1 grid-rows-5 gap-4 md:grid-cols-6 md:grid-rows-3">
+        <div className="col-span-1 row-span-1 h-full md:col-span-2 md:row-span-2">
+          <GradientCard>
+            <div className="flex min-h-full flex-col gap-2 p-2">
+              <Typography>Languages</Typography>
+              <div className="flex items-center justify-center md:h-36">
+                <SkillList list={SKILL_LIST.languages} />
+              </div>
+            </div>
+          </GradientCard>
+        </div>
+        <div className="col-span-1 row-span-1 md:col-span-4 md:row-span-1">
+          <SkillCard heading="Frontend" list={SKILL_LIST.frontend} />
+        </div>
+        <div className="col-span-1 row-span-1 md:col-span-4 md:row-span-1">
+          <SkillCard heading="Backend" list={SKILL_LIST.backend} />
+        </div>
+        <div className="col-span-1 row-span-1 md:col-span-4 md:row-span-1">
+          <SkillCard heading="Tools" list={SKILL_LIST.tools} />
+        </div>
+        <div className="col-span-1 row-span-1 md:col-span-2 md:row-span-1">
+          <GradientCard>
+            <div className="flex h-20 items-center justify-center">
+              <Typography>Stay tuned...</Typography>
+            </div>
+          </GradientCard>
+        </div>
       </div>
     </section>
-  );
-}
-
-function Skill({ heading, list }: { heading: string; list: SkillType[] }) {
-  return (
-    <GradientCard>
-      <div className="flex flex-col gap-2 p-2">
-        <Typography>{heading}</Typography>
-        <SkillList list={list} />
-      </div>
-    </GradientCard>
-  );
-}
-
-function StayTune() {
-  return (
-    <GradientCard>
-      <div className="flex flex-col items-center justify-center gap-2 p-2">
-        <Typography>Stay tuned...</Typography>
-      </div>
-    </GradientCard>
   );
 }

@@ -14,6 +14,7 @@ export { default as HeroHeadings } from "./molecules/HeroHeadings/HeroHeadings";
 export { default as SkillList } from "./molecules/SkillList/SkillList";
 export { default as LinkList } from "./molecules/LinkList/LinkList";
 export { default as Work } from "./molecules/Work/Work";
+export { default as SkillCard } from "./molecules/SkillCard/SkillCard";
 
 // Organisms
 export { default as Hero } from "./organisms/Hero/Hero";
