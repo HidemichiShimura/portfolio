@@ -5,7 +5,6 @@ const allSkills = [
   "javascript",
   "typescript",
   "sass",
-  "bootstrap",
   "tailwind",
   "react",
   "nextjs",
@@ -47,4 +46,32 @@ export default meta;
 
 type Story = StoryObj<typeof meta>;
 
-export const Default: Story = { args: {} };
+export const Default: Story = {
+  args: {
+    heading: "Heading",
+    list: [
+      "javascript",
+      "typescript",
+      "sass",
+      "bootstrap",
+      "tailwind",
+      "react",
+      "nextjs",
+      "materialui",
+      "redux",
+      "jest",
+      "storybook",
+      "node",
+      "express",
+      "mongodb",
+      "mongoose",
+      "postgres",
+      "prisma",
+      "firebase",
+      "git",
+      "github",
+      "webpack",
+      "figma",
+    ],
+  },
+};

@@ -16,7 +16,6 @@ const SKILL_LIST: {
   languages: ["javascript", "typescript"],
   frontend: [
     "sass",
-    "bootstrap",
     "tailwind",
     "react",
     "nextjs",

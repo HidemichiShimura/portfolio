@@ -1,7 +1,6 @@
 import javascript from "/public/images/icons/javascript.svg";
 import typescript from "/public/images/icons/typescript.svg";
 import sass from "/public/images/icons/sass.svg";
-import bootstrap from "/public/images/icons/bootstrap.svg";
 import tailwind from "/public/images/icons/tailwindcss.svg";
 import react from "/public/images/icons/react.svg";
 import nextjs from "/public/images/icons/nextjs.svg";
@@ -36,8 +35,6 @@ export default function Icon({ icon }: Icon) {
       return <img src={typescript.src} />;
     case "sass":
       return <img src={sass.src} />;
-    case "bootstrap":
-      return <img src={bootstrap.src} />;
     case "tailwind":
       return <img src={tailwind.src} />;
     case "react":
