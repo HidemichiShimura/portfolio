@@ -7,7 +7,8 @@ export default function PageHeading({
   type = "main",
   children,
 }: PageHeadingTypes) {
-  const commonClassName = "font-60s-stripe text-neutral-100";
+  const commonClassName =
+    "font-60s-stripe dark:text-neutral-100 text-light-gray";
 
   if (type === "main") {
     return (
