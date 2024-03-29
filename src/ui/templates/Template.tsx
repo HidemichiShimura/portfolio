@@ -10,12 +10,12 @@ export default function Template({
   footer: React.ReactNode;
 }) {
   return (
-    <>
+    <main className="bg-black">
       <div className="flex justify-center">{hero}</div>
       <Grid>
         <div className="px-4 pb-44 md:px-20">{content}</div>
       </Grid>
       {footer}
-    </>
+    </main>
   );
 }
