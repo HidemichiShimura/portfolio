@@ -21,3 +21,5 @@ export type Skill =
   | "github"
   | "webpack"
   | "figma";
+
+export type Theme = "dark" | "light";
