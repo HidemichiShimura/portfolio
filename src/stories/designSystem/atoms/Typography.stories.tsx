@@ -1,8 +1,8 @@
 import { Meta, StoryObj } from "@storybook/react";
-import Typography from "./Typography";
+import { Typography } from "@/ui";
 
 const meta: Meta<typeof Typography> = {
-  title: "atoms/Typography",
+  title: "design system/atoms/Typography",
   component: Typography,
   tags: ["autodocs"],
   argTypes: {
@@ -11,24 +11,30 @@ const meta: Meta<typeof Typography> = {
         type: "inline-radio",
         options: ["gray", "white"],
       },
-      description: "Color of the text",
+      description: "Text color",
     },
     size: {
       control: {
         type: "inline-radio",
         options: ["xs", "sm", "md", "lg", "xl"],
       },
-      description: "Size of the text",
+      description: "Text size",
     },
     children: {
       control: {
         type: "text",
       },
-      description: "Text to be displayed",
+      description: "Text",
     },
   },
   parameters: {
     controls: { expanded: true },
+    docs: {
+      description: {
+        component: "Common text used in the page",
+      },
+    },
+    layout: "centered",
   },
 };
 export default meta;
@@ -39,13 +45,6 @@ export const Default: Story = {
   args: {
     children: "Text",
   },
-  decorators: [
-    (Story) => (
-      <div style={{ margin: "3rem", textAlign: "center" }}>
-        <Story />
-      </div>
-    ),
-  ],
 };
 
 export const Gray: Story = {
@@ -57,5 +56,45 @@ export const White: Story = {
   args: {
     ...Default.args,
     color: "white",
+  },
+};
+
+export const ExtraSmall: Story = {
+  ...Default,
+  args: {
+    ...Default.args,
+    size: "xs",
+  },
+};
+
+export const Small: Story = {
+  ...Default,
+  args: {
+    ...Default.args,
+    size: "sm",
+  },
+};
+
+export const Medium: Story = {
+  ...Default,
+  args: {
+    ...Default.args,
+    size: "md",
+  },
+};
+
+export const Large: Story = {
+  ...Default,
+  args: {
+    ...Default.args,
+    size: "lg",
+  },
+};
+
+export const ExtraLarge: Story = {
+  ...Default,
+  args: {
+    ...Default.args,
+    size: "xl",
   },
 };

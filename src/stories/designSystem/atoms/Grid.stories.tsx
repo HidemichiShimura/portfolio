@@ -1,14 +1,19 @@
 import type { Meta, StoryObj } from "@storybook/react";
-import Grid from "./Grid";
+import { Grid } from "@/ui";
 
 const meta: Meta<typeof Grid> = {
-  title: "atoms/Grid",
+  title: "design system/atoms/Grid",
   component: Grid,
   tags: ["autodocs"],
   parameters: {
     controls: { expanded: true },
+    docs: {
+      description: {
+        component: "A container component with a grid background",
+      },
+    },
   },
-  argTypes: {},
+  argTypes: { children: { description: "Contents on the grid background" } },
 };
 export default meta;
 
@@ -18,7 +23,7 @@ export const Default: Story = {
   args: {
     children: (
       <div className="flex h-screen w-screen items-center justify-center">
-        <p>iorgjariog</p>
+        <p>children</p>
       </div>
     ),
   },

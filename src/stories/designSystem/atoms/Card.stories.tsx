@@ -1,14 +1,19 @@
 import type { Meta, StoryObj } from "@storybook/react";
-import Card from "./Card";
+import { Card } from "@/ui";
 
 const meta: Meta<typeof Card> = {
-  title: "atoms/Card",
+  title: "design system/atoms/Card",
   component: Card,
   tags: ["autodocs"],
   parameters: {
     controls: { expanded: true },
+    docs: {
+      description: {
+        component: "Card component with slightly rounded borders",
+      },
+    },
   },
-  argTypes: {},
+  argTypes: { children: { description: "Contents inside the card" } },
 };
 export default meta;
 

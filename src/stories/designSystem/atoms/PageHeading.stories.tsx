@@ -1,8 +1,8 @@
 import { Meta, StoryObj } from "@storybook/react";
-import PageHeading from "./PageHeading";
+import { PageHeading } from "@/ui";
 
 const meta: Meta<typeof PageHeading> = {
-  title: "atoms/PageHeading",
+  title: "design system/atoms/PageHeading",
   component: PageHeading,
   tags: ["autodocs"],
   argTypes: {
@@ -12,12 +12,17 @@ const meta: Meta<typeof PageHeading> = {
         options: ["main", "sub"],
       },
       description:
-        "Styled headngs of the hero section, 'main' for the author name and 'sub' for job titles and others",
+        "`main` for the author name and `sub` for job titles and other texts",
     },
     children: { control: "text", description: "Heading text" },
   },
   parameters: {
     controls: { expanded: true },
+    docs: {
+      description: {
+        component: "Headngs in 60sSTRIPE fonts",
+      },
+    },
   },
 };
 export default meta;
@@ -26,7 +31,7 @@ type Story = StoryObj<typeof meta>;
 
 export const Default: Story = {
   args: {
-    children: "Hidemichi Shimura",
+    children: "Heading",
   },
   decorators: [
     (Story) => (

@@ -1,44 +1,50 @@
 import type { Meta, StoryObj } from "@storybook/react";
-import Icon from "./Icon";
+import { Icon } from "@/ui";
+
+const ICONS = [
+  "javascript",
+  "typescript",
+  "sass",
+  "tailwind",
+  "react",
+  "nextjs",
+  "materialui",
+  "redux",
+  "jest",
+  "storybook",
+  "node",
+  "express",
+  "mongodb",
+  "mongoose",
+  "postgres",
+  "prisma",
+  "firebase",
+  "git",
+  "github",
+  "webpack",
+  "figma",
+  "mail",
+  "linkedin",
+  "link",
+];
 
 const meta: Meta<typeof Icon> = {
-  title: "atoms/Icon",
+  title: "design system/atoms/Icon",
   component: Icon,
   tags: ["autodocs"],
   parameters: {
     controls: { expanded: true },
+    docs: {
+      description: {
+        component: "Dev icons and general icons",
+      },
+    },
   },
   argTypes: {
     icon: {
       control: "select",
-      options: [
-        "javascript",
-        "typescript",
-        "sass",
-        "bootstrap",
-        "tailwind",
-        "react",
-        "nextjs",
-        "materialui",
-        "redux",
-        "jest",
-        "storybook",
-        "node",
-        "express",
-        "mongodb",
-        "mongoose",
-        "postgres",
-        "prisma",
-        "firebase",
-        "git",
-        "github",
-        "webpack",
-        "figma",
-        "mail",
-        "linkedin",
-        "link",
-      ],
-      description: "Icon",
+      options: ICONS,
+      description: "Icon name",
     },
   },
 };
@@ -61,12 +67,6 @@ export const Typescript: Story = {
 export const Sass: Story = {
   args: {
     icon: "sass",
-  },
-};
-
-export const Bootstrap: Story = {
-  args: {
-    icon: "bootstrap",
   },
 };
 
