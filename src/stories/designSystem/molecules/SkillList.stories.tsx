@@ -27,16 +27,22 @@ const allSkills = [
 ];
 
 const meta: Meta<typeof SkillList> = {
-  title: "molecules/SkillList",
+  title: "design system/molecules/SkillList",
   component: SkillList,
   tags: ["autodocs"],
   parameters: {
     controls: { expanded: true },
+    docs: {
+      description: {
+        component: "A skill set",
+      },
+    },
   },
   argTypes: {
     list: {
       control: "check",
       options: allSkills,
+      description: "Skills",
     },
   },
 };

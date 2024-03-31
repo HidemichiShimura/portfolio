@@ -2,28 +2,34 @@ import type { Meta, StoryObj } from "@storybook/react";
 import { LinkList } from "@/ui";
 
 const meta: Meta<typeof LinkList> = {
-  title: "molecules/LinkList",
+  title: "design system/molecules/LinkList",
   component: LinkList,
   tags: ["autodocs"],
   parameters: {
     controls: { expanded: true },
+    docs: {
+      description: {
+        component: "Multiple general link items",
+      },
+    },
+    layout: "centered",
   },
   argTypes: {
     github: {
       control: "text",
-      description: "Link to GitHub",
+      description: "My GitHub profile URL",
     },
     link: {
       control: "text",
-      description: "Link to an app page",
+      description: "App page URL",
     },
     mail: {
       control: "text",
-      description: "Link to email",
+      description: "My email address with a prefix `mailto:`",
     },
     linkedin: {
       control: "text",
-      description: "Link to a Linkedin page",
+      description: "My Linkedin page URL",
     },
   },
 };
@@ -33,38 +39,38 @@ type Story = StoryObj<typeof meta>;
 
 export const Github: Story = {
   args: {
-    github: "example",
+    github: "https://github.com/",
   },
 };
 
 export const Link: Story = {
   args: {
-    link: "example",
+    link: "https://www.google.com/",
   },
 };
 
 export const Mail: Story = {
   args: {
-    mail: "example",
+    mail: "mailto:example@example.com",
   },
 };
 
 export const Linkedin: Story = {
   args: {
-    linkedin: "example",
+    linkedin: "https://www.linkedin.com/",
   },
 };
 
 export const Work: Story = {
   args: {
-    github: "example",
-    link: "example",
+    github: Github.args?.github,
+    link: Link.args?.link,
   },
 };
 
 export const Footer: Story = {
   args: {
-    mail: "example",
-    linkedin: "example",
+    mail: Mail.args?.mail,
+    linkedin: Linkedin.args?.linkedin,
   },
 };
