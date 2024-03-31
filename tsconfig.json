@@ -21,7 +21,8 @@
       "@/*": ["./src/*"],
       "@/fonts": ["./src/styles/fonts"],
       "@/ui": ["./src/ui/index"],
-      "@/types": ["./src/types/types.d"]
+      "@/types": ["./src/types/types.d"],
+      "@/contexts": ["./src/contexts/index"]
     }
   },
   "include": [

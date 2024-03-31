@@ -40,7 +40,7 @@ export default function Icon({ icon }: Icon) {
     case "react":
       return <img src={react.src} />;
     case "nextjs":
-      return <img src={nextjs.src} className="invert" />;
+      return <img src={nextjs.src} className="dark:invert" />;
     case "materialui":
       return <img src={materialui.src} />;
     case "redux":
@@ -52,7 +52,7 @@ export default function Icon({ icon }: Icon) {
     case "node":
       return <img src={node.src} />;
     case "express":
-      return <img src={express.src} />;
+      return <img src={express.src} className="dark:invert" />;
     case "mongodb":
       return <img src={mongodb.src} />;
     case "postgres":

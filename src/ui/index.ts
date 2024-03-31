@@ -8,6 +8,7 @@ export { default as RadialLinearContainer } from "./atoms/RadialLinearContainer/
 export { default as Grid } from "./atoms/Grid/Grid";
 export { default as GradientCard } from "./atoms/GradientCard/GradientCard";
 export { default as Card } from "./atoms/Card/Card";
+export { default as ThemeToggle } from "./atoms/ThemeToggle/ThemeToggle";
 
 // Molecules
 export { default as HeroHeadings } from "./molecules/HeroHeadings/HeroHeadings";

@@ -1,0 +1,29 @@
+import { Meta } from "@storybook/blocks";
+import Image from "next/image";
+import colorScheme from "./assets/color-scheme.png";
+import mobile from "./assets/mobile.png";
+import dark from "./assets/dark.png";
+import light from "./assets/light.png";
+
+<Meta title="Portfolio Design" />
+
+<h1>Design</h1>
+
+<h2 className="">Color Scheme</h2>
+<img src={colorScheme.src} />
+
+<h2 className="">Responsive design</h2>
+<div className="flex">
+  <div>
+    <h3>Mobile</h3>
+    <img src={mobile.src} />
+  </div>
+  <div>
+    <h3>Tablet/Laptop - Dark</h3>
+    <img src={dark.src} />
+  </div>
+  <div>
+    <h3>Tablet/Laptop - Light</h3>
+    <img src={light.src} />
+  </div>
+</div>

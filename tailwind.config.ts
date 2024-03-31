@@ -6,6 +6,7 @@ const config: Config = {
     "./src/components/**/*.{js,ts,jsx,tsx,mdx}",
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
     "./src/ui/**/*.{js,ts,jsx,tsx}",
+    "./src/stories/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
     extend: {
@@ -24,12 +25,13 @@ const config: Config = {
         wt: "url(/images/works/weight-tracker.gif)",
         cdc: "url(/images/works/cafe-drink-customizer.gif)",
         scb: "url(/images/works/cocktail-bot.gif)",
+        pf: "url(/images/works/portfolio.gif)",
       },
       invert: {
         half: ".5",
       },
     },
   },
-  plugins: [],
+  darkMode: "class",
 };
 export default config;
