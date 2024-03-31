@@ -1,14 +1,18 @@
 import type { Meta, StoryObj } from "@storybook/react";
-import Home from "./Home";
+import { Home } from "@/ui";
 
 const meta: Meta<typeof Home> = {
-  title: "pages/Home",
+  title: "design system/pages/Home",
   component: Home,
   tags: ["autodocs"],
   parameters: {
     controls: { expanded: true },
+    docs: {
+      description: {
+        component: "The entire page",
+      },
+    },
   },
-  argTypes: {},
 };
 export default meta;
 
