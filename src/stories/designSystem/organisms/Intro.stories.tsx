@@ -1,14 +1,18 @@
 import type { Meta, StoryObj } from "@storybook/react";
-import Works from "./Works";
+import { Intro } from "@/ui";
 
-const meta: Meta<typeof Works> = {
-  title: "organisms/Works",
-  component: Works,
+const meta: Meta<typeof Intro> = {
+  title: "design system/organisms/Intro",
+  component: Intro,
   tags: ["autodocs"],
   parameters: {
     controls: { expanded: true },
+    docs: {
+      description: {
+        component: "Intro section",
+      },
+    },
   },
-  argTypes: {},
 };
 export default meta;
 
