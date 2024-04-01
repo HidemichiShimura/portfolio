@@ -35,6 +35,6 @@ My personal portfolio web page developed by modern frontend technologies as Next
 <br/>
 💡 Light/dark mode toggle with React Context
 
-## Authors
+## Author
 
 [HidemichiShimura](https://github.com/HidemichiShimura)
