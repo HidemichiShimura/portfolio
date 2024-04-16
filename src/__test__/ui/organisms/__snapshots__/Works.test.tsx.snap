@@ -1,0 +1,180 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Organisms: <Works /> matches snapshot 1`] = `
+<section
+  class="flex min-h-screen flex-col justify-center gap-8"
+  title="Works"
+>
+  <h2
+    class="bg-gradient-to-b from-black to-neutral-100 bg-clip-text font-sans text-4xl text-transparent dark:from-neutral-100 dark:to-black"
+  >
+    WORKS
+  </h2>
+  <div
+    class="flex flex-col justify-center gap-4"
+  >
+    <div
+      class="overflow-hidden rounded-lg"
+    >
+      <div
+        class="w-full h-96 bg-cover bg-center bg-no-repeat bg-pf"
+      >
+        <div
+          class="flex h-full w-full flex-col items-center justify-center gap-4 bg-slate-900 opacity-50"
+        >
+          <p
+            class="text-white"
+          >
+            Portfolio
+          </p>
+          <ul
+            class="flex gap-2"
+          >
+            <li
+              class="w-7"
+            >
+              <a
+                href="https://github.com/HidemichiShimura/portfolio"
+                target="_blank"
+              >
+                <img
+                  class="invert"
+                  src="/img.jpg"
+                />
+              </a>
+            </li>
+            <li
+              class="w-7"
+            >
+              <a
+                href="https://portfolio-hidemichishimura.vercel.app/"
+                target="_blank"
+              >
+                <img
+                  class="invert"
+                  src="/img.jpg"
+                />
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div
+      class="overflow-hidden rounded-lg"
+    >
+      <div
+        class="w-full h-96 bg-cover bg-center bg-no-repeat bg-wt"
+      >
+        <div
+          class="flex h-full w-full flex-col items-center justify-center gap-4 bg-slate-900 opacity-50"
+        >
+          <p
+            class="text-white"
+          >
+            Weight Tracker
+          </p>
+          <ul
+            class="flex gap-2"
+          >
+            <li
+              class="w-7"
+            >
+              <a
+                href="https://github.com/HidemichiShimura/weight-tracker"
+                target="_blank"
+              >
+                <img
+                  class="invert"
+                  src="/img.jpg"
+                />
+              </a>
+            </li>
+            <li
+              class="w-7"
+            >
+              <a
+                href="https://weight-tracker-front.vercel.app/"
+                target="_blank"
+              >
+                <img
+                  class="invert"
+                  src="/img.jpg"
+                />
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div
+      class="overflow-hidden rounded-lg"
+    >
+      <div
+        class="w-full h-96 bg-cover bg-center bg-no-repeat bg-cdc"
+      >
+        <div
+          class="flex h-full w-full flex-col items-center justify-center gap-4 bg-slate-900 opacity-50"
+        >
+          <p
+            class="text-white"
+          >
+            Cafe Drink Customizer
+          </p>
+          <ul
+            class="flex gap-2"
+          >
+            <li
+              class="w-7"
+            >
+              <a
+                href="https://github.com/HidemichiShimura/cafe-drink-customizer"
+                target="_blank"
+              >
+                <img
+                  class="invert"
+                  src="/img.jpg"
+                />
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div
+      class="overflow-hidden rounded-lg"
+    >
+      <div
+        class="w-full h-96 bg-cover bg-center bg-no-repeat bg-scb"
+      >
+        <div
+          class="flex h-full w-full flex-col items-center justify-center gap-4 bg-slate-900 opacity-50"
+        >
+          <p
+            class="text-white"
+          >
+            Slack Cocktail Bot
+          </p>
+          <ul
+            class="flex gap-2"
+          >
+            <li
+              class="w-7"
+            >
+              <a
+                href="https://github.com/HidemichiShimura/slack-cocktail-bot"
+                target="_blank"
+              >
+                <img
+                  class="invert"
+                  src="/img.jpg"
+                />
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+`;
