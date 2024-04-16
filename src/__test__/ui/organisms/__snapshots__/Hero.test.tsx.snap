@@ -1,0 +1,49 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Organisms: <Hero /> matches snapshot 1`] = `
+<div
+  class="grow"
+  data-testid="hero"
+>
+  <section
+    class="bg-radial-gradient animate-radial-gradient bg-[radial-gradient(circle,#7952B3,transparent,transparent)] bg-[length:100px_100px] bg-no-repeat md:bg-[length:350px_350px]"
+  >
+    <div
+      class="flex h-screen w-full items-center justify-center self-stretch"
+    >
+      <div
+        class="flex flex-col items-center gap-8"
+      >
+        <div
+          class="text-center"
+        >
+          <h1
+            class="font-60s-stripe dark:text-neutral-100 text-light-gray text-6xl md:text-8xl"
+          >
+            Hidemichi Shimura
+          </h1>
+        </div>
+        <div
+          class="flex flex-col items-center"
+        >
+          <h2
+            class="font-60s-stripe dark:text-neutral-100 text-light-gray text-2xl md:text-4xl"
+          >
+            Web Developer
+          </h2>
+          <h2
+            class="font-60s-stripe dark:text-neutral-100 text-light-gray text-2xl md:text-4xl"
+          >
+            &
+          </h2>
+          <h2
+            class="font-60s-stripe dark:text-neutral-100 text-light-gray text-2xl md:text-4xl"
+          >
+            Challenge Seeker
+          </h2>
+        </div>
+      </div>
+    </div>
+  </section>
+</div>
+`;

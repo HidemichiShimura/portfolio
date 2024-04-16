@@ -1,0 +1,47 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Organisms: <Footer /> matches snapshot 1`] = `
+<footer>
+  <div
+    class="flex h-20 w-full items-center justify-evenly md:h-40"
+  >
+    <ul
+      class="flex gap-2"
+    >
+      <li
+        class="w-7"
+      >
+        <a
+          href="mailto:hidemichi.shimura@gmail.com"
+          target="_blank"
+        >
+          <img
+            class="invert-half"
+            src="/img.jpg"
+          />
+        </a>
+      </li>
+      <li
+        class="w-7"
+      >
+        <a
+          href="https://www.linkedin.com/in/hidemichi-shimura"
+          target="_blank"
+        >
+          <img
+            class="invert-half"
+            src="/img.jpg"
+          />
+        </a>
+      </li>
+    </ul>
+    <p
+      class="text-light-gray text-base font-sans"
+    >
+      © 
+      2024
+       Hidemimchi Shimura
+    </p>
+  </div>
+</footer>
+`;
