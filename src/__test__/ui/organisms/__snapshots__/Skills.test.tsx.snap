@@ -1,0 +1,278 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Organisms: <Skills /> matches snapshot 1`] = `
+<section
+  class="flex min-h-screen flex-col justify-center gap-8"
+  title="Skills"
+>
+  <h2
+    class="bg-gradient-to-b from-black to-neutral-100 bg-clip-text font-sans text-4xl text-transparent dark:from-neutral-100 dark:to-black"
+  >
+    SKILLS
+  </h2>
+  <div
+    class="grid grid-cols-1 grid-rows-5 gap-4 md:grid-cols-6 md:grid-rows-3"
+  >
+    <div
+      class="col-span-1 row-span-1 h-full md:col-span-2 md:row-span-2"
+    >
+      <div
+        class="min-h-full min-w-full rounded-lg bg-[linear-gradient(35deg,rgba(121,82,179,0.5)_0%,transparent_25%,transparent_75%,rgba(121,82,179,0.5)_100%)]"
+      >
+        <div
+          class="flex min-h-full flex-col gap-2 p-2"
+        >
+          <p
+            class="text-light-gray text-base font-sans"
+          >
+            Languages
+          </p>
+          <div
+            class="flex items-center justify-center md:h-36"
+          >
+            <ul
+              class="flex w-4/5 items-center justify-center gap-2 "
+            >
+              <li
+                class="min-w-8 md:w-16"
+              >
+                <img
+                  src="/img.jpg"
+                />
+              </li>
+              <li
+                class="min-w-8 md:w-16"
+              >
+                <img
+                  src="/img.jpg"
+                />
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="col-span-1 row-span-1 md:col-span-4 md:row-span-1"
+    >
+      <div
+        class="min-h-full min-w-full rounded-lg bg-[linear-gradient(35deg,rgba(121,82,179,0.5)_0%,transparent_25%,transparent_75%,rgba(121,82,179,0.5)_100%)]"
+      >
+        <div
+          class="flex min-h-full flex-col gap-2 p-2"
+        >
+          <p
+            class="text-light-gray text-base font-sans"
+          >
+            Frontend
+          </p>
+          <div
+            class="flex items-center justify-center"
+          >
+            <ul
+              class="flex w-4/5 items-center justify-center gap-2 "
+            >
+              <li
+                class="min-w-8"
+              >
+                <img
+                  src="/img.jpg"
+                />
+              </li>
+              <li
+                class="min-w-8"
+              >
+                <img
+                  src="/img.jpg"
+                />
+              </li>
+              <li
+                class="min-w-8"
+              >
+                <img
+                  src="/img.jpg"
+                />
+              </li>
+              <li
+                class="min-w-8"
+              >
+                <img
+                  class="dark:invert"
+                  src="/img.jpg"
+                />
+              </li>
+              <li
+                class="min-w-8"
+              >
+                <img
+                  src="/img.jpg"
+                />
+              </li>
+              <li
+                class="min-w-8"
+              >
+                <img
+                  src="/img.jpg"
+                />
+              </li>
+              <li
+                class="min-w-8"
+              >
+                <img
+                  src="/img.jpg"
+                />
+              </li>
+              <li
+                class="min-w-8"
+              >
+                <img
+                  src="/img.jpg"
+                />
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="col-span-1 row-span-1 md:col-span-4 md:row-span-1"
+    >
+      <div
+        class="min-h-full min-w-full rounded-lg bg-[linear-gradient(35deg,rgba(121,82,179,0.5)_0%,transparent_25%,transparent_75%,rgba(121,82,179,0.5)_100%)]"
+      >
+        <div
+          class="flex min-h-full flex-col gap-2 p-2"
+        >
+          <p
+            class="text-light-gray text-base font-sans"
+          >
+            Backend
+          </p>
+          <div
+            class="flex items-center justify-center"
+          >
+            <ul
+              class="flex w-4/5 items-center justify-center gap-2 "
+            >
+              <li
+                class="min-w-8"
+              >
+                <img
+                  src="/img.jpg"
+                />
+              </li>
+              <li
+                class="min-w-8"
+              >
+                <img
+                  class="dark:invert"
+                  src="/img.jpg"
+                />
+              </li>
+              <li
+                class="min-w-8"
+              >
+                <img
+                  src="/img.jpg"
+                />
+              </li>
+              <li
+                class="min-w-8"
+              >
+                <img
+                  src="/img.jpg"
+                />
+              </li>
+              <li
+                class="min-w-8"
+              >
+                <img
+                  src="/img.jpg"
+                />
+              </li>
+              <li
+                class="min-w-8"
+              >
+                <img
+                  src="/img.jpg"
+                />
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="col-span-1 row-span-1 md:col-span-4 md:row-span-1"
+    >
+      <div
+        class="min-h-full min-w-full rounded-lg bg-[linear-gradient(35deg,rgba(121,82,179,0.5)_0%,transparent_25%,transparent_75%,rgba(121,82,179,0.5)_100%)]"
+      >
+        <div
+          class="flex min-h-full flex-col gap-2 p-2"
+        >
+          <p
+            class="text-light-gray text-base font-sans"
+          >
+            Tools
+          </p>
+          <div
+            class="flex items-center justify-center"
+          >
+            <ul
+              class="flex w-4/5 items-center justify-center gap-2 "
+            >
+              <li
+                class="min-w-8"
+              >
+                <img
+                  src="/img.jpg"
+                />
+              </li>
+              <li
+                class="min-w-8"
+              >
+                <img
+                  class="invert"
+                  src="/img.jpg"
+                />
+              </li>
+              <li
+                class="min-w-8"
+              >
+                <img
+                  src="/img.jpg"
+                />
+              </li>
+              <li
+                class="min-w-8"
+              >
+                <img
+                  src="/img.jpg"
+                />
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="col-span-1 row-span-1 md:col-span-2 md:row-span-1"
+    >
+      <div
+        class="min-h-full min-w-full rounded-lg bg-[linear-gradient(35deg,rgba(121,82,179,0.5)_0%,transparent_25%,transparent_75%,rgba(121,82,179,0.5)_100%)]"
+      >
+        <div
+          class="flex h-20 items-center justify-center"
+        >
+          <p
+            class="text-light-gray text-base font-sans"
+          >
+            Stay tuned...
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+`;

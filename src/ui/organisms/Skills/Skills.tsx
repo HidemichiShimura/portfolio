@@ -30,7 +30,10 @@ const SKILL_LIST: {
 
 export default function Skills() {
   return (
-    <section className="flex min-h-screen flex-col justify-center gap-8">
+    <section
+      className="flex min-h-screen flex-col justify-center gap-8"
+      title="Skills"
+    >
       <SectionHeading>SKILLS</SectionHeading>
       <div className="grid grid-cols-1 grid-rows-5 gap-4 md:grid-cols-6 md:grid-rows-3">
         <div className="col-span-1 row-span-1 h-full md:col-span-2 md:row-span-2">
