@@ -5,7 +5,7 @@ const TEXT =
 
 export default function Intro() {
   return (
-    <section className="flex h-screen items-center md:h-96">
+    <section className="flex h-screen items-center md:h-96" title="Intro">
       <Typography>{TEXT}</Typography>
     </section>
   );

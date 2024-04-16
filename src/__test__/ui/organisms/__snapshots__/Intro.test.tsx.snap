@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Organisms: <Intro /> matches snapshot 1`] = `
+<section
+  class="flex h-screen items-center md:h-96"
+  title="Intro"
+>
+  <p
+    class="text-light-gray text-base font-sans"
+  >
+    I am a self-taught web developer with a strong background in modern frontend and backend skills with experiences as a system admin for servers and networks. I have a strong passion for problem-solving and am always eager to assist my team members. I thrive in fast-paced environments with new challenges. Mutual assistance is my top priority.
+  </p>
+</section>
+`;
