@@ -8,6 +8,7 @@ export default function Works() {
     >
       <SectionHeading>WORKS</SectionHeading>
       <div className="flex flex-col justify-center gap-4">
+        <Work name="beyond" />
         <Work name="pf" />
         <Work name="wt" />
         <Work name="cdc" />

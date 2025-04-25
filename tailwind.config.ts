@@ -26,6 +26,7 @@ const config: Config = {
         cdc: "url(/images/works/cafe-drink-customizer.gif)",
         scb: "url(/images/works/cocktail-bot.gif)",
         pf: "url(/images/works/portfolio.gif)",
+        beyond: "url(/images/works/beyond.png)",
       },
       invert: {
         half: ".5",

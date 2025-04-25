@@ -1,6 +1,6 @@
 import { Card, LinkList } from "@/ui";
 
-type Project = "wt" | "cdc" | "scb" | "pf";
+type Project = "wt" | "cdc" | "scb" | "pf" | "beyond";
 type WorkTypes = { name: Project };
 
 export default function Work({ name }: WorkTypes) {
@@ -24,6 +24,10 @@ export default function Work({ name }: WorkTypes) {
     case "pf":
       workName = "Portfolio";
       bgClass = "bg-pf";
+      break;
+    case "beyond":
+      workName = "Beyond";
+      bgClass = "bg-beyond";
       break;
     default:
       break;
@@ -63,6 +67,13 @@ function WorkLinkList({ name }: WorkTypes) {
         <LinkList
           github="https://github.com/HidemichiShimura/portfolio"
           link="https://portfolio-hidemichishimura.vercel.app/"
+        />
+      );
+    case "beyond":
+      return (
+        <LinkList
+          github="https://github.com/yurihoka/Beyond"
+          link="https://beyond-workouttracker.vercel.app"
         />
       );
     default:
