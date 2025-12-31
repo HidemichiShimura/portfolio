@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 import { sixtysStripe } from "@/fonts";
+import { GoogleTagManager } from "@next/third-parties/google";
 
 export const metadata: Metadata = {
   title: "",
@@ -15,6 +16,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className={sixtysStripe.variable}>
+      <GoogleTagManager gtmId="GTM-K9SHR86D" />
       <body>{children}</body>
     </html>
   );
